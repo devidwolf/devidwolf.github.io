@@ -1,0 +1,13 @@
+<nav>
+  <ul>
+    <li><a href="{{ SITEURL }}">.</a></li>
+    {% for page in pages %}
+    <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for title, url in LINKS %}
+    <li><a href="{{ url }}" target="_blank">{{ title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

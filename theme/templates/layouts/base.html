@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+
+<head>
+  {% block head %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Pelican">
+
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  {% if page and page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+  {% endblock head %}
+
+  <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/import.min.css">
+</head>
+
+<body>
+  {% block content %}{% endblock %}
+  {% include './includes/nav.html' %}
+  {% include './includes/footer.html' %}
+</body>
+
+</html>

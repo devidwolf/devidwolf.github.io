@@ -1,0 +1,7 @@
+{% extends "./layouts/base.html" %}
+
+{% block title %}{{ SITENAME }} - {{ page.title|striptags }}{%endblock%}
+
+{% block content %}
+    {{ page.content }}
+{% endblock %}
