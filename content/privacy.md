@@ -1,5 +1,6 @@
 title: privacy
 description: Read about your data on this website.
+status: hidden
 
 <!-- https://www.udmedia.de/news/542/dsgvo-checkliste-zur-datenschutzverordnung -->
 

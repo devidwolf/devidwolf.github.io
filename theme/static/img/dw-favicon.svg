@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+
+	<style>
+		@media (prefers-color-scheme: dark) {
+		  path { fill: #eee; }
+		}
+		@media (prefers-color-scheme: light) {
+			path { fill: #222; }
+		}
+	</style>
+
+	<path d="M60,40H40L0,0v50c0,27.61,22.39,50,50,50s50-22.39,50-50V0L60,40z"/>
+</svg>

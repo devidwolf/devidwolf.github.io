@@ -1,0 +1,29 @@
+nav
+  @media (min-width: map-get($breakpoints, md))
+    display: flex
+    flex-flow: row
+
+  details
+    width: 100%
+
+    summary
+      padding-bottom: .3rem
+      outline: none
+      font-family: map-get($fonts, head)
+      font-weight: bold
+      letter-spacing: .05rem
+
+      @media (min-width: map-get($breakpoints, md))
+        &::-webkit-details-marker
+          display: none
+
+    ul
+      padding-left: 1rem
+      margin-top: 0
+      margin-bottom: .5rem
+
+      @media (min-width: map-get($breakpoints, md))
+        padding-left: 0
+
+      li
+        list-style-type: none

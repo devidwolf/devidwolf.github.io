@@ -2,8 +2,18 @@
 
 {% block content %}
 
-<div class="landing">
-  <h1>david wolf</h1>
-</div>
+<video id="landing-vid" autoplay muted disablePictureInPicture>
+  <source src="{{ SITEURL }}/videos/landing-vid.webm" type="video/webm">
+</video>
+
+<main class="landing-container">
+
+  <div class="landing">
+    <div class="toCode bg-box" translate="no">
+      <span id="dev">d<span id="a-e">a</span>v</span><span id="attr"><span id="id">id</span><span id="wolf">wolf</span></span>
+    </div>
+  </div>
+
+</main>
 
 {% endblock %}

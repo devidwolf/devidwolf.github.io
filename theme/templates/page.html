@@ -3,5 +3,9 @@
 {% block title %}{{ SITENAME }} - {{ page.title|striptags }}{%endblock%}
 
 {% block content %}
+<main class="container">
+  <article>
     {{ page.content }}
+  </article>
+</main>
 {% endblock %}

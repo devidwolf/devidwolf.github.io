@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 PAGE_PATHS = ['']
+STATIC_PATHS = ['videos']
 # STATIC_EXCLUDES = ['sass']
 
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -27,22 +28,20 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('GitHub', 'https://github.com/devidwolf'),
-         ('PayPal.Me', 'https://paypal.me/devidwolf'),
-         ('Buy me a coffee', 'https://buymeacoffee.com/dwolf'),)
-
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'https://github.com/devidwolf'),)
+
+# Blogroll
+LINKS = (('PayPal.Me', 'https://paypal.me/devidwolf'),
+         ('Buy me a coffee', 'https://buymeacoffee.com/dwolf'),)
 
 DEFAULT_PAGINATION = False
 
 THEME = './theme'
 
-PLUGINS = [
-    'plugins.assets',
-]
+# PLUGINS = [
+#     'plugins.assets',
+# ]
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
