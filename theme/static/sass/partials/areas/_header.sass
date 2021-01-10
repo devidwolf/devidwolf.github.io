@@ -4,11 +4,20 @@ header
   right: 0
   padding: calc(var(--header-height) / 3) 0
 
-  img
-    width: calc(var(--header-height) / 2)
-    height: calc(var(--header-height) / 2)
-    filter: drop-shadow(0 0 3px rgba(0, 0, 0, .7))
+  a
+    $drop-shadow: drop-shadow(0 0 .5rem map-get($colors, blue))
 
-    @media (hover: hover) and (pointer: fine)
-      &:hover
-        filter: drop-shadow(0 0 3px map-get($colors, blue))
+    &:focus
+      filter: $drop-shadow
+
+    img
+      width: calc(var(--header-height) / 2)
+      height: calc(var(--header-height) / 2)
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7))
+
+      @media (hover: hover) and (pointer: fine)
+        transition: 0.15s
+
+        &:hover
+          filter: $drop-shadow
+          transition: 0.15s

@@ -13,6 +13,9 @@ nav
       font-weight: bold
       letter-spacing: .05rem
 
+      &:focus
+        color: map-get($colors, lightgrey)
+
       @media (min-width: map-get($breakpoints, md))
         &::-webkit-details-marker
           display: none
@@ -27,3 +30,6 @@ nav
 
       li
         list-style-type: none
+
+        a[data-active='true']
+          color: map-get($colors, lightgrey)

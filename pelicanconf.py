@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 PAGE_PATHS = ['']
-STATIC_PATHS = ['videos']
+STATIC_PATHS = ['certificates', 'videos']
 # STATIC_EXCLUDES = ['sass']
 
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -29,7 +29,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Social widget
-SOCIAL = (('GitHub', 'https://github.com/devidwolf'),)
+SOCIAL = (
+            ('GitHub', 'https://github.com/devidwolf'),
+            ('SoloLearn', 'https://www.sololearn.com/Profile/15515516'),
+            ('Codecademy', 'https://www.codecademy.com/profiles/764'),
+         )
 
 # Blogroll
 LINKS = (('PayPal.Me', 'https://paypal.me/devidwolf'),

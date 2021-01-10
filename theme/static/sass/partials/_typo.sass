@@ -16,14 +16,20 @@ ul
   margin-bottom: .8rem
 
 a
+  outline: none
   color: map-get($colors, blue)
   text-decoration: none
 
+  &:focus
+    text-decoration: underline
+
+
   @media (hover: hover) and (pointer: fine)
-    &:hover
-      text-decoration: underline
+    &[href]
+      &:hover
+        text-decoration: underline
 
 hr
   border-style: solid
-  border-color: darken(map-get($colors, light), 15%)
+  border-color: map-get($colors, lightgrey)
   border-radius: 1px

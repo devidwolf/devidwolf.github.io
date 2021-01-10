@@ -6,21 +6,14 @@
 </head>
 
 <body>
-  <form method="get" target="_blank" onsubmit="this.action=`mailto:${'a'}${'@'}${'davidwolf.dev'}`">
+  <form method="get" target="_blank" autocomplete="off" onsubmit="this.action=`mailto:${'a'}${'@'}${'davidwolf.dev'}`">
 
-    <div class="form-group">
-      <label for="subject">subject</label>
-      <input type="text" name="subject" placeholder="subject">
-    </div>
+    <input type="text" name="subject" placeholder="subject" required maxlength="255">
 
-    <div class="form-group">
-      <label for="body">body</label>
-      <textarea name="body" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></textarea>
-    </div>
+    <textarea name="body" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit." required maxlength="1000"></textarea>
 
-    <div class="form-group">
-      <button type="submit">Create Mail</button>
-    </div>
+    <button type="submit">go to E-Mail Client</button>
+
   </form>
 </body>
 
