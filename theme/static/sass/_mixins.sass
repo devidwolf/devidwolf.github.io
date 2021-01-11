@@ -6,27 +6,8 @@
   border-bottom-left-radius: $radius
   border-bottom-right-radius: $radius
 
-// https://gist.github.com/charlieschwabacher/1096739
-=border-radii($topleft: null, $topright: null, $bottomright: null, $bottomleft: null)
-  @if $topleft != null and $topleft >= 0
-    border-top-left-radius: $topleft
-    -webkit-border-top-left-radius: $topleft
-    -moz-border-radius-topleft: $topleft
-
-  @if $topright != null and $topright >= 0
-    border-top-right-radius: $topright
-    -webkit-border-top-right-radius: $topright
-    -moz-border-radius-topright: $topright
-
-  @if $bottomleft != null and $bottomleft >= 0
-    border-bottom-left-radius: $bottomleft
-    -webkit-border-bottom-left-radius: $bottomleft
-    -moz-border-radius-bottomleft: $bottomleft
-
-  @if $bottomright != null and $bottomright >= 0
-    border-bottom-right-radius: $bottomright
-    -webkit-border-bottom-right-radius: $bottomright
-    -moz-border-radius-bottomright: $bottomright
+// =focus()
+//
 
 // keyframes-to
 =keyframes-to($name, $pairs)

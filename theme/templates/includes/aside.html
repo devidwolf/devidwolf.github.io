@@ -1,0 +1,13 @@
+<aside class="">
+  <h3>affiliate</h3>
+  <div class="cards">
+    {% for slogan, image, url in AFFILIATES %}
+    <div class="card">
+      <a href="{{ url }}" target="_blank">
+        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ image }}" alt="{{ image }}">
+        <p>{{ slogan }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</aside>

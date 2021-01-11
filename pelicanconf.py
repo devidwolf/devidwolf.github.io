@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 PAGE_PATHS = ['']
-STATIC_PATHS = ['certificates', 'videos']
+STATIC_PATHS = ['CNAME', 'certificates', 'videos']
 # STATIC_EXCLUDES = ['sass']
 
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -38,6 +38,10 @@ SOCIAL = (
 # Blogroll
 LINKS = (('PayPal.Me', 'https://paypal.me/devidwolf'),
          ('Buy me a coffee', 'https://buymeacoffee.com/dwolf'),)
+
+AFFILIATES = (
+            ('Get eco-friendly Web Hosting', 'green-hosting.svg', 'https://www.udmedia.de/r18841'),
+             )
 
 DEFAULT_PAGINATION = False
 

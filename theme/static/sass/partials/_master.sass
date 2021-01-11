@@ -9,12 +9,22 @@ body
 
   > main
     flex: 1
-    align-items: center
     padding-top: calc(var(--header-height) * 1.5)
+    padding-bottom: var(--header-height)
+
+    @media (min-width: map-get($breakpoints, md))
+      // grid of article and aside
+      &[class='container']
+        display: grid
+        grid-template-columns: 3fr 1fr
+        grid-column-gap: 2rem
+
+        @media (min-width: map-get($breakpoints, lg))
+          grid-template-columns: 5fr 1fr
 
 .container
   width: var(--container-width)
   margin: auto
 
-::selection
+\::selection
   background: map-get($colors, blue)

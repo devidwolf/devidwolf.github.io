@@ -1,0 +1,45 @@
+aside
+  h3
+    color: map-get($colors, lightgrey)
+
+    @media (max-width: map-get($breakpoints, md))
+      margin-top: 1.5rem
+
+    text-align: center
+
+    @media (min-width: map-get($breakpoints, md))
+      text-align: right
+
+  .cards
+    @media (max-width: map-get($breakpoints, md))
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-column-gap: 2rem
+
+  .card
+    padding: 1rem
+
+    +rounded-borders(0.5rem)
+
+    background: map-get($colors, grey)
+
+    @media (hover: hover) and (pointer: fine), (focus: focus)
+      transition: 0.15s
+
+      &:hover, :focus
+        background: map-get($colors, darkgrey)
+        transition: 0.15s
+
+        a
+          text-decoration: none
+
+          p
+            color: map-get($colors, blue)
+
+    img
+      width: 100%
+      margin-bottom: 0.5rem
+
+    p
+      margin-bottom: 0
+      color: map-get($colors, lightgrey)
