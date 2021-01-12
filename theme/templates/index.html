@@ -2,9 +2,7 @@
 
 {% block content %}
 
-<video id="landing-vid" autoplay muted disablePictureInPicture>
-  <source src="{{ SITEURL }}/videos/landing-vid.webm" type="video/webm">
-</video>
+<video id="landing-vid" type="video/webm" autoplay muted disablePictureInPicture></video>
 
 <main class="landing-container">
 
@@ -15,5 +13,34 @@
   </div>
 
 </main>
+
+<script>
+  $(function() {
+
+    let videos, currentVideoIndex;
+    videos = [
+      {% for v in LANDING_VIDEOS %}
+      {{ '\'{0}/videos/{1}\','.format(SITEURL, v) }}
+      {% endfor %}
+      ];
+    // if not set already set random starting video index
+    // console.log(utils.getCookie('sessionVid'));
+    videoIndex = utils.getCookie('sessionVid') ? utils.getCookie('sessionVid') : utils.setCookie('sessionVid', Math.floor(Math.random() * videos.length));
+
+    $('#landing-vid').attr('src', videos[videoIndex]);
+    $('#landing-vid').trigger('play');
+
+    // video autoplay playlist
+    // https://stackoverflow.com/a/17522421/13765033
+    $('#landing-vid').on('ended', function() {
+      videoIndex++;
+      if (videoIndex === videos.length) videoIndex = 0;
+      // console.log(videos[videoIndex]);
+      $(this).attr('src', videos[videoIndex]);
+      $(this).trigger('play');
+    });
+
+  });
+</script>
 
 {% endblock %}

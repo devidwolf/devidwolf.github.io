@@ -17,7 +17,7 @@ body
       &[class='container']
         display: grid
         grid-template-columns: 3fr 1fr
-        grid-column-gap: 2rem
+        grid-column-gap: map-get($sizes, grid-gap)
 
         @media (min-width: map-get($breakpoints, lg))
           grid-template-columns: 5fr 1fr
@@ -25,6 +25,15 @@ body
 .container
   width: var(--container-width)
   margin: auto
+
+ul.inline-list
+  padding-left: 0
+
+  li
+    display: inline
+
+    + li
+      margin-left: .6rem
 
 \::selection
   background: map-get($colors, blue)

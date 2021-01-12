@@ -18,19 +18,13 @@
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/sass/import.min.css">
 
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/vendor/jquery-3.5.1.min.js"></script>
+  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/utilities.js"></script>
 </head>
 
 <body>
   {% include './includes/header.html' %}
   {% block content %}{% endblock %}
-  <footer>
-    <div class="container">
-      {% include './includes/nav.html' %}
-      <hr>
-      <span class="copyright">Copyright © 12019 - 12021</span>
-    </div>
-  </footer>
-
+  {% include './includes/footer.html' %}
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
 </body>
 

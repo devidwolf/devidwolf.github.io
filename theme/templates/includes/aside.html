@@ -1,13 +1,32 @@
-<aside class="">
-  <h3>affiliate</h3>
+<aside>
   <div class="cards">
-    {% for slogan, image, url in AFFILIATES %}
-    <div class="card">
-      <a href="{{ url }}" target="_blank">
-        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{ image }}" alt="{{ image }}">
-        <p>{{ slogan }}</p>
-      </a>
-    </div>
-    {% endfor %}
+
+    {% if SOCIAL %}
+    <section>
+      <div class="card">
+        <h3>elsewhere</h3>
+        <ul>
+          {% for title, url in SOCIAL %}
+          <li><a href="{{ url }}" target="_blank">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endif %}
+
+    {% if AFFILIATES %}
+    <section>
+      {% for slogan, image, url in AFFILIATES %}
+      <div class="card">
+        <h3>affiliate</h3>
+        <a href="{{ url }}" target="_blank">
+          <img src="{{ SITEURL }}/images/{{ image }}" alt="{{ image }}">
+          <p>{{ slogan }}</p>
+        </a>
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
   </div>
 </aside>

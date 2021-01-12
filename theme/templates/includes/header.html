@@ -1,5 +1,14 @@
-<header class="container">
-  <a href="{{ SITEURL }}/">
-    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/dw-logo.svg" alt="logo">
-  </a>
+<header>
+  <div class="container">
+    <a href="{{ SITEURL }}/">
+      <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/dw-logo.svg" alt="logo">
+    </a>
+    <nav>
+      <ul class="inline-list">
+        {% for page in pages %}
+        <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 </header>

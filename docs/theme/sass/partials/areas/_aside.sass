@@ -1,40 +1,25 @@
 aside
   h3
-    color: map-get($colors, lightgrey)
-
-    @media (max-width: map-get($breakpoints, md))
-      margin-top: 1.5rem
-
+    padding-bottom: .3rem
+    border-bottom: .1rem dashed transparentize(map-get($colors, lightgrey), .5)
+    margin-bottom: 1rem
     text-align: center
-
-    @media (min-width: map-get($breakpoints, md))
-      text-align: right
+    color: map-get($colors, lightgrey)
 
   .cards
     @media (max-width: map-get($breakpoints, md))
+      margin-top: 1.5rem
       display: grid
       grid-template-columns: 1fr 1fr
-      grid-column-gap: 2rem
+      grid-column-gap: map-get($sizes, grid-gap)
 
   .card
     padding: 1rem
+    margin-bottom: 1rem
 
     +rounded-borders(0.5rem)
 
     background: map-get($colors, grey)
-
-    @media (hover: hover) and (pointer: fine), (focus: focus)
-      transition: 0.15s
-
-      &:hover, :focus
-        background: map-get($colors, darkgrey)
-        transition: 0.15s
-
-        a
-          text-decoration: none
-
-          p
-            color: map-get($colors, blue)
 
     img
       width: 100%
