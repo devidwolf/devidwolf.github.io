@@ -6,5 +6,12 @@ footer
   ul
     margin: 0
 
-  .copyright
-    font-size: .8rem
+    li.copyright
+      font-size: .8rem
+
+      @media (max-width: map-get($breakpoints, md))
+        display: block
+        margin-bottom: .5rem
+
+        + li
+          margin-left: 0

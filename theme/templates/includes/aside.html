@@ -3,7 +3,7 @@
 
     {% if SOCIAL %}
     <section>
-      <div class="card">
+      <div class="card social">
         <h3>elsewhere</h3>
         <ul>
           {% for title, url in SOCIAL %}
@@ -16,15 +16,19 @@
 
     {% if AFFILIATES %}
     <section>
-      {% for slogan, image, url in AFFILIATES %}
-      <div class="card">
+      <div class="card affiliate">
         <h3>affiliate</h3>
-        <a href="{{ url }}" target="_blank">
-          <img src="{{ SITEURL }}/images/{{ image }}" alt="{{ image }}">
-          <p>{{ slogan }}</p>
-        </a>
+        <ul>
+          {% for slogan, image, url in AFFILIATES %}
+          <li>
+            <a href="{{ url }}" target="_blank">
+              <img src="{{ SITEURL }}/images/{{ image }}" alt="{{ image }}">
+              <p>{{ slogan }}</p>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
-      {% endfor %}
     </section>
     {% endif %}
 
