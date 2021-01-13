@@ -46,6 +46,7 @@ SOCIAL = (
 
 AFFILIATES = (
             ('Get eco-friendly Web Hosting', 'green-hosting.svg', 'https://www.udmedia.de/r18841'),
+            ('Royalty-Free Stock Video at Pond5', 'pond5.webp', 'https://www.pond5.com/?ref=PlanetNine'),
              )
 
 DEFAULT_PAGINATION = False
