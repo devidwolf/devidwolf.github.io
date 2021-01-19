@@ -5,7 +5,7 @@ summary: Ein Buch das dich HTML lehrt
 ---
 
 <p style='text-align:center'>
-  <img src='{filename}/../media/images/html_book_cover_small.jpg' width='200px'>
+  <img src='{static}/media/images/html_book_cover_small.jpg' width='200px'>
   <br>
   <a href='https://www.amazon.de/dp/B08TB423D7'>Jetzt lesen</a>
 </p>
