@@ -1,0 +1,31 @@
+{% extends "./layouts/base.html" %}
+
+{% block content %}
+<main class="container">
+
+  <ol id="post-entries">
+    {% for article in articles %}
+    <li>
+      <article class="post-entry">
+        <header>
+          <h2>
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">
+              {{ article.title }}
+            </a>
+          </h2>
+        </header>
+        <!-- <footer>
+          <time datetime="{{ article.date.isoformat() }}">
+            {{ article.locale_date }}
+          </time>
+        </footer> -->
+        <main>
+          {{ article.summary }}
+        </main>
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+
+</main>
+{% endblock %}

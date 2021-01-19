@@ -20,7 +20,7 @@
     let videos, currentVideoIndex;
     videos = [
       {% for v in LANDING_VIDEOS %}
-      {{ '\'{0}/videos/{1}\','.format(SITEURL, v) }}
+      {{ '\'{0}/media/videos/{1}\','.format(SITEURL, v) }}
       {% endfor %}
       ];
     // if not set already set random starting video index

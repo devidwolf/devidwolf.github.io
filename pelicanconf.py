@@ -4,14 +4,18 @@
 import os
 import glob
 
-LANDING_VIDEOS = [os.path.basename(path) for path in glob.glob('./content/videos/landing-*.webm')]
+LANDING_VIDEOS = [os.path.basename(path) for path in glob.glob('./content/media/videos/landing-*.webm')]
 
-PAGE_PATHS = ['']
-STATIC_PATHS = ['CNAME', 'images', 'videos', 'certificates']
+# PAGE_PATHS = ['pages']
+STATIC_PATHS = ['CNAME', 'media']
 # STATIC_EXCLUDES = ['sass']
 
 PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
+
+ARTICLE_PATHS = ['posts']
+ARTICLE_SAVE_AS = '{slug}/index.html'
+ARTICLE_URL = '{slug}'
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = './docs'
