@@ -1,0 +1,10 @@
+
+// grid of article and aside
+.page
+  @media (min-width: map-get($breakpoints, md))
+    display: grid
+    grid-template-columns: 3fr 1fr
+    grid-column-gap: map-get($sizes, grid-gap)
+
+    @media (min-width: map-get($breakpoints, lg))
+      grid-template-columns: 5fr 1fr

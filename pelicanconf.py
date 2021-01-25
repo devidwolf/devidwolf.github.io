@@ -15,7 +15,9 @@ PAGE_URL = '{slug}/'
 
 ARTICLE_PATHS = ['posts']
 ARTICLE_SAVE_AS = '{slug}/index.html'
-ARTICLE_URL = '{slug}'
+ARTICLE_URL = '{slug}/'
+ARTICLE_LANG_SAVE_AS = '{lang}/{slug}/index.html'
+ARTICLE_LANG_URL = '{lang}/{slug}/'
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = './docs'

@@ -1,9 +1,15 @@
 {% extends './layouts/base.html' %}
 
-{% block title %}{{ page.title|striptags}} · {{ SITENAME }}{%endblock%}
+{% block html_lang %}
+{{ page.lang }}
+{% endblock %}
+
+{% block title %}
+{{ page.title|striptags}} · {{ SITENAME }}
+{%endblock%}
 
 {% block content %}
-<main class="container">
+<main class="page container">
   <article>
     {{ page.content }}
   </article>

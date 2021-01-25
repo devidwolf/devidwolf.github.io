@@ -1,7 +1,9 @@
 ---
 title: HTML für zwischendurch: Geeignet für blutige Neulinge
 date: 2021-01-19
-summary: Ein Buch das dich HTML lehrt
+modified: 2021-01-25
+description: Ein Buch das dich HTML lehrt
+lang: de
 ---
 
 <p style='text-align:center'>

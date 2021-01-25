@@ -5,7 +5,7 @@ $(function() {
    */
   let url = window.location.href;
   // console.log(links);
-  $('nav a').each(function(index, link) {
+  $('header nav a').each(function(index, link) {
     // console.log(link);
     if (link.href === url) {
       link.dataset.active = true;

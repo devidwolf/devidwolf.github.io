@@ -1,47 +1,63 @@
 {% extends "./layouts/base.html" %}
-{% block html_lang %}{{ article.lang }}{% endblock %}
 
-{% block title %}{{ SITENAME }} - {{ article.title|striptags  }}{% endblock %}
+{% block html_lang %}
+{{ article.lang }}
+{% endblock %}
+
+{% block title %}
+{{ SITENAME }} · {{ article.title|striptags  }}
+{% endblock %}
 
 {% block head %}
-  {{ super() }}
+{{ super() }}
 
-  {% import 'translations.html' as translations with context %}
-  {% if translations.entry_hreflang(article) %}
-    {{ translations.entry_hreflang(article) }}
-  {% endif %}
+{% if article.description %}
+<meta name="description" content="{{article.description}}" />
+{% endif %}
 
-  {% if article.description %}
-    <meta name="description" content="{{article.description}}" />
-  {% endif %}
-
-  {% for tag in article.tags %}
-    <meta name="tags" content="{{tag}}" />
-  {% endfor %}
-
+{% for tag in article.tags %}
+<meta name="tags" content="{{tag}}" />
+{% endfor %}
 {% endblock %}
 
 {% block content %}
-<main class="container">
+<main class="article container">
+  <aside class="cards">
+    <section>
+      <nav class="card">
+        <h3>contents</h3>
+        <ul></ul>
+      </nav>
+      <footer class="card">
+        <h3>meta</h3>
+        {% if article.modified %}
+        <span>
+          <i class="icon">create</i>
+          <time class="modified" datetime="{{ article.modified.isoformat() }}">
+            {{ article.locale_modified }}
+          </time>
+        </span>
+        {% endif %}
+        <span>
+          <i class="icon">flag</i>
+          <time class="published" datetime="{{ article.date.isoformat() }}">
+            {{ article.locale_date }}
+          </time>
+        </span>
+      </footer>
+    </section>
+  </aside>
   <article>
     <header>
       <h1 class="entry-title">
         {{ article.title }}
       </h1>
     </header>
-    <!-- <footer class="post-info">
-      <time class="published" datetime="{{ article.date.isoformat() }}">
-        {{ article.locale_date }}
-      </time>
-      {% if article.modified %}
-      <time class="modified" datetime="{{ article.modified.isoformat() }}">
-        {{ article.locale_modified }}
-      </time>
-      {% endif %}
-    </footer> -->
     <div class="entry-content">
       {{ article.content }}
     </div>
   </article>
 </main>
+
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/article-nav.js"></script>
 {% endblock %}

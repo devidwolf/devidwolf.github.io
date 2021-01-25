@@ -1,3 +1,7 @@
+html
+  scroll-behavior: smooth
+  scroll-padding-top: calc(var(--header-height) * 1.5)
+
 body
   // for bottom footer: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
   display: flex
@@ -11,16 +15,6 @@ body
     flex: 1
     padding-top: calc(var(--header-height) * 1.5)
     padding-bottom: var(--header-height)
-
-    @media (min-width: map-get($breakpoints, md))
-      // grid of article and aside
-      &[class='container']
-        display: grid
-        grid-template-columns: 3fr 1fr
-        grid-column-gap: map-get($sizes, grid-gap)
-
-        @media (min-width: map-get($breakpoints, lg))
-          grid-template-columns: 5fr 1fr
 
 .container
   width: var(--container-width)

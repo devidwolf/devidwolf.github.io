@@ -4,7 +4,7 @@
 <main class="container">
 
   <ol id="post-entries">
-    {% for article in articles %}
+    {% for article in articles | reverse %}
     <li>
       <article class="post-entry">
         <header>
@@ -20,7 +20,7 @@
           </time>
         </footer> -->
         <main>
-          {{ article.summary }}
+          {{ article.description }}
         </main>
       </article>
     </li>
