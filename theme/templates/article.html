@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block title %}
-{{ SITENAME }} · {{ article.title|striptags  }}
+{{ article.title | striptags }} {{ TITLE_SEPARATOR }} {{ SITENAME }}
 {% endblock %}
 
 {% block head %}

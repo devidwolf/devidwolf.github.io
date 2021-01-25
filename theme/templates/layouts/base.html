@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Pelican">
 
+  {% if page and page.noindex %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+
   <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
   {% if page and page.description %}
   <meta name="description" content="{{ page.description }}">

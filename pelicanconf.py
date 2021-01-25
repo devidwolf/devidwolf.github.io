@@ -6,8 +6,10 @@ import glob
 
 LANDING_VIDEOS = [os.path.basename(path) for path in glob.glob('./content/media/videos/landing-*.webm')]
 
+TITLE_SEPARATOR = '⁓'
+
 # PAGE_PATHS = ['pages']
-STATIC_PATHS = ['CNAME', 'media']
+STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages
 # STATIC_EXCLUDES = ['sass']
 
 PAGE_SAVE_AS = '{slug}/index.html'

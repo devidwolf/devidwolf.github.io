@@ -1,6 +1,9 @@
+---
 title: legal
 description: legal notice
 status: hidden
+noindex: true
+---
 
 ## [§ 5 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)
 a [at] davidwolf [dot] dev<br>
