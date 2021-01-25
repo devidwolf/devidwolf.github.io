@@ -9,12 +9,24 @@ $(function() {
 
   // fill navigation
   if (headlines.length !== 0) {
-    headlines.each(function(index, element) {
-      // console.log(index, element);
-      $(element).attr('id', index);
-      let link = $(`<li><a href='#${index}'>${$(this).text()}</a></li>`);
-      $(`<a href='#${index}'><i class='icon'>link</i></a>`).appendTo(element);
-      link.appendTo('aside nav ul');
+    headlines.each(function(i, e) {
+      // console.log(i, e);
+      let lvl, link;
+
+      // extract headline number from tag:
+      // h1 -> 1 - 1 => 0; h2 -> 2 - 1 => 1; ...
+      lvl = Number($(e).prop('tagName').charAt(1)) - 1;
+      // console.log(lvl);
+
+      // nav items
+      link = $(`<li><a href='#${i}'>${$(this).text()}</a></li>`);
+      link.attr('data-nav-level', lvl);
+      link.appendTo('aside nav ul'); // add # to headings
+
+      // headlines
+      $(e).attr('id', i);
+      $(`<a href='#${i}'><i class='icon'>link</i></a>`).appendTo(e);
+
     });
   }
   // no headings - no navigation, go hide it
@@ -22,4 +34,20 @@ $(function() {
     $('aside nav').hide();
   }
 
+
+  /**
+   * open close aside cards based on screen width
+   */
+   let breakpoint = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--breakpoint-md'));
+   // console.log(breakpoint);
+   $(window).on('load resize', function() {
+     // screen is big enough, expand all aside cards
+     if ($(window).width() > breakpoint) {
+       $('aside details').attr('open', true);
+     }
+     // screen to small, collapse all aside cards
+     else {
+       $('aside details').attr('open', false);
+     }
+   });
 })

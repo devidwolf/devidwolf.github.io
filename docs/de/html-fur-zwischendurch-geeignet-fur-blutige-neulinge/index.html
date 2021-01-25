@@ -40,25 +40,33 @@
 </header><main class="article container">
   <aside class="cards">
     <section>
-      <nav class="card">
-        <h3>contents</h3>
-        <ul></ul>
-      </nav>
       <footer class="card">
-        <h3>meta</h3>
-        <span>
-          <i class="icon">create</i>
-          <time class="modified" datetime="2021-01-25T00:00:00+01:00">
-            Mon 25 January 2021
-          </time>
-        </span>
-        <span>
-          <i class="icon">flag</i>
-          <time class="published" datetime="2021-01-19T00:00:00+01:00">
-            Tue 19 January 2021
-          </time>
-        </span>
+        <details open>
+          <summary>
+            <h3>meta</h3>
+          </summary>
+          <ul>
+            <li class="modified">
+              <time datetime="2021-01-25T00:00:00+01:00">
+                25. January 12021 HE
+              </time>
+            </li>
+            <li class="published">
+              <time datetime="2021-01-19T00:00:00+01:00">
+                19. January 12021 HE
+              </time>
+            </li>
+          </ul>
+        </details>
       </footer>
+      <nav class="card">
+        <details open>
+          <summary>
+            <h3>contents</h3>
+          </summary>
+          <ul></ul>
+        </details>
+      </nav>
     </section>
   </aside>
   <article>
@@ -66,6 +74,8 @@
       <h1 class="entry-title">
         HTML für zwischendurch: Geeignet für blutige Neulinge
       </h1>
+      <!--       <p>Ein Buch das dich HTML lehrt</p>
+ -->
     </header>
     <div class="entry-content">
       <p style='text-align:center'>

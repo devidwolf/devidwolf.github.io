@@ -24,27 +24,35 @@
 <main class="article container">
   <aside class="cards">
     <section>
-      <nav class="card">
-        <h3>contents</h3>
-        <ul></ul>
-      </nav>
       <footer class="card">
-        <h3>meta</h3>
-        {% if article.modified %}
-        <span>
-          <i class="icon">create</i>
-          <time class="modified" datetime="{{ article.modified.isoformat() }}">
-            {{ article.locale_modified }}
-          </time>
-        </span>
-        {% endif %}
-        <span>
-          <i class="icon">flag</i>
-          <time class="published" datetime="{{ article.date.isoformat() }}">
-            {{ article.locale_date }}
-          </time>
-        </span>
+        <details open>
+          <summary>
+            <h3>meta</h3>
+          </summary>
+          <ul>
+            {% if article.modified %}
+            <li class="modified">
+              <time datetime="{{ article.modified.isoformat() }}">
+                {{ article.locale_modified }}
+              </time>
+            </li>
+            {% endif %}
+            <li class="published">
+              <time datetime="{{ article.date.isoformat() }}">
+                {{ article.locale_date }}
+              </time>
+            </li>
+          </ul>
+        </details>
       </footer>
+      <nav class="card">
+        <details open>
+          <summary>
+            <h3>contents</h3>
+          </summary>
+          <ul></ul>
+        </details>
+      </nav>
     </section>
   </aside>
   <article>
@@ -52,6 +60,9 @@
       <h1 class="entry-title">
         {{ article.title }}
       </h1>
+      <!-- {% if article.description %}
+      <p>{{ article.description }}</p>
+      {% endif %} -->
     </header>
     <div class="entry-content">
       {{ article.content }}

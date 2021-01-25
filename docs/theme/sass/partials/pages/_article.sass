@@ -1,18 +1,56 @@
 .article
-  // grid of article and aside
   aside.cards section
     z-index: 0
     position: sticky
     top: calc(var(--header-height) * 1.5)
 
+    details
+      &[open]
+        summary h3::before
+          content: "- "
+
+      summary
+        list-style: none
+
+        @media (hover: hover) and (pointer: fine)
+          &:hover
+            cursor: pointer
+
+        &:focus
+          outline: none
+
+          h3::before
+            color: map-get($colors, blue)
+
+
+        h3::before
+          content: "+ "
+
+    li
+      margin-bottom: 0.5rem
+
+    nav
+      @for $i from 1 through 6
+        li[data-nav-level='#{$i}']
+          margin-left: #{$i * 0.5}rem
+
     footer
       color: map-get($colors, lightgrey)
 
-      span
-        display: block
+      ul
+        padding-left: 1rem
 
-        i
-          margin-right: 0.2rem
+        li
+          padding-left: .25rem
+
+        li.published::marker
+          font-family: 'Material Icons Outlined'
+          content: 'upgrade'
+
+        li.modified::marker
+          font-family: 'Material Icons Outlined'
+          content: 'edit'
+
 
   article
     hyphens: auto
@@ -25,9 +63,14 @@
           a[href^='#']
             margin-left: 0.4rem
 
+            &:focus
+              background: map-get($colors, blue)
+              color: map-get($colors, light)
+
       p, li
         line-height: 150%
 
+  // grid layout of aside and article
   @media (min-width: map-get($breakpoints, md))
     display: grid
     grid-template-columns: 1fr 3fr

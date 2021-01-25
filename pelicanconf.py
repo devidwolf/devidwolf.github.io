@@ -4,6 +4,7 @@
 import os
 import glob
 
+
 LANDING_VIDEOS = [os.path.basename(path) for path in glob.glob('./content/media/videos/landing-*.webm')]
 
 TITLE_SEPARATOR = '⁓'
@@ -33,6 +34,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
+DEFAULT_DATE_FORMAT = '%d. %B 1%Y HE'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -67,3 +69,12 @@ THEME = './theme'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+TRANSLATIONS = {
+    'en': {
+        'flag': '🇬🇧'
+        },
+    'de': {
+        'flag': '🇩🇪'
+        }
+}
