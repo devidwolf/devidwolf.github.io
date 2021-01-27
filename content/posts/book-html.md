@@ -1,7 +1,7 @@
 ---
 title: HTML für zwischendurch: Geeignet für blutige Neulinge
 description: Ein Buch das dich HTML lehrt
-category: 'Computer Programming'
+category: Computer Programming
 tags: HTML
 lang: de
 date: 2021-01-19
