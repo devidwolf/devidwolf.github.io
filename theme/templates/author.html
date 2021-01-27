@@ -1,0 +1,24 @@
+{% extends "./layouts/base.html" %}
+
+{% block title %}
+Author {{ author }}
+{% endblock %}
+
+{% block content %}
+<main class="container">
+  <h2>
+    <i class="icon">person</i>
+    {{ author }}
+  </h2>
+
+  <ul>
+    {% for article in articles %}
+    {% if article.author == author %}
+    <li>
+      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</main>
+{% endblock %}

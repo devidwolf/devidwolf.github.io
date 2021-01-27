@@ -5,7 +5,7 @@
     </a>
     <nav>
       <ul class="inline-list">
-        <li><a href="{{ SITEURL }}/archives.html">posts</a></li>
+        <li><a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">posts</a></li>
         {% for page in pages %}
         <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}

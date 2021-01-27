@@ -1,0 +1,98 @@
+<aside>
+  <div class="cards">
+
+    {% if categories %}
+    <section class="card">
+      <details open>
+        <summary>
+          <h3>
+            <!-- <a href="{{ SITEURL }}/{{ CATEGORIES_URL }}">categories</a> -->
+            categories
+          </h3>
+        </summary>
+        <ul class="icon-list">
+          {% for category, articles in categories | sort %}
+          <li class="category">
+            <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+    </section>
+    {% endif %}
+
+    {% if tags %}
+    <section class="card">
+      <details open>
+        <summary>
+          <h3>
+            <!-- <a href="{{ SITEURL }}/{{ TAGS_URL }}">tags</a> -->
+            tags
+          </h3>
+        </summary>
+        <ul class="icon-list">
+          {% for tag, articles in tags | sort %}
+          <li class="tag">
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+            <!-- ({{ articles|count }}) -->
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+    </section>
+    {% endif %}
+
+    {% if authors %}
+    <section class="card">
+      <details open>
+        <summary>
+          <h3>
+            <!-- <a href="{{ SITEURL }}/{{ AUTHORS_URL }}">authors</a> -->
+            authors
+          </h3>
+        </summary>
+        <ul class="icon-list">
+          {% for author, articles in authors | sort %}
+          <li class="author">
+            <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+            <!-- ({{ articles|count }}) -->
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+    </section>
+    {% endif %}
+
+    <!-- {% if SOCIAL %}
+    <section>
+      <div class="card social">
+        <h3>elsewhere</h3>
+        <ul>
+          {% for title, url in SOCIAL %}
+          <li><a href="{{ url }}" target="_blank">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endif %}
+
+    {% if AFFILIATES %}
+    <section>
+      <div class="card affiliate">
+        <h3>affiliate</h3>
+        <ul>
+          {% for slogan, image, url in AFFILIATES %}
+          <li>
+            <a href="{{ url }}" target="_blank">
+              <img src="{{ SITEURL }}/images/{{ image }}" alt="{{ image }}">
+              <p>{{ slogan }}</p>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endif %} -->
+
+  </div>
+</aside>

@@ -11,7 +11,12 @@
   <meta name="robots" content="noindex">
   {% endif %}
 
-  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <title>
+    {% block title %}{% endblock title %}
+    {{ TITLE_SEPARATOR }}
+    {{ SITENAME }}
+  </title>
+
   {% if page and page.description %}
   <meta name="description" content="{{ page.description }}">
   {% endif %}
@@ -26,9 +31,9 @@
 </head>
 
 <body>
-  {% include './includes/header.html' %}
+  {% include './partials/header.html' %}
   {% block content %}{% endblock %}
-  {% include './includes/footer.html' %}
+  {% include './partials/footer.html' %}
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
 </body>
 

@@ -1,0 +1,24 @@
+{% extends "./layouts/base.html" %}
+
+{% block title %}
+Category {{ category }}
+{% endblock %}
+
+{% block content %}
+<main class="container">
+  <h2>
+    <i class="icon">label</i>
+    {{ category }}
+  </h2>
+
+  <ul>
+    {% for article in articles %}
+    {% if article.category == category %}
+    <li>
+      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</main>
+{% endblock %}

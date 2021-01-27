@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block title %}
-{{ page.title | striptags}} {{ TITLE_SEPARATOR }} {{ SITENAME }}
+{{ page.title | striptags}}
 {%endblock%}
 
 {% block content %}
@@ -13,6 +13,5 @@
   <article>
     {{ page.content }}
   </article>
-  {% include './includes/aside.html' %}
 </main>
 {% endblock %}

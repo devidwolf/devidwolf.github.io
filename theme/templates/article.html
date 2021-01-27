@@ -5,56 +5,24 @@
 {% endblock %}
 
 {% block title %}
-{{ article.title | striptags }} {{ TITLE_SEPARATOR }} {{ SITENAME }}
+{{ article.title | striptags }}
 {% endblock %}
 
 {% block head %}
 {{ super() }}
 
 {% if article.description %}
-<meta name="description" content="{{article.description}}" />
+<meta name="description" content="{{ article.description }}" />
 {% endif %}
 
 {% for tag in article.tags %}
-<meta name="tags" content="{{tag}}" />
+<meta name="tags" content="{{ tag }}" />
 {% endfor %}
 {% endblock %}
 
 {% block content %}
-<main class="article container">
-  <aside class="cards">
-    <section>
-      <footer class="card">
-        <details open>
-          <summary>
-            <h3>meta</h3>
-          </summary>
-          <ul>
-            {% if article.modified %}
-            <li class="modified">
-              <time datetime="{{ article.modified.isoformat() }}">
-                {{ article.locale_modified }}
-              </time>
-            </li>
-            {% endif %}
-            <li class="published">
-              <time datetime="{{ article.date.isoformat() }}">
-                {{ article.locale_date }}
-              </time>
-            </li>
-          </ul>
-        </details>
-      </footer>
-      <nav class="card">
-        <details open>
-          <summary>
-            <h3>contents</h3>
-          </summary>
-          <ul></ul>
-        </details>
-      </nav>
-    </section>
-  </aside>
+<main class="article sidebar-container container">
+  {% include "./partials/article_aside.html" %}
   <article>
     <header>
       <h1 class="entry-title">

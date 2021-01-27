@@ -1,11 +1,13 @@
 {% extends "./layouts/base.html" %}
 
 {% block title %}
-publications {{ TITLE_SEPARATOR }} {{ SITENAME }}
+Publications
 {% endblock %}
 
 {% block content %}
-<main class="container">
+<main class="sidebar-container container">
+
+  {% include './partials/aside.html' %}
 
   <ol id="post-entries">
     {% for article in articles | reverse %}

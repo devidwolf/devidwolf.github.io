@@ -22,6 +22,15 @@ ARTICLE_URL = '{slug}/'
 ARTICLE_LANG_SAVE_AS = '{lang}/{slug}/index.html'
 ARTICLE_LANG_URL = '{lang}/{slug}/'
 
+ARCHIVES_SAVE_AS = 'archives/index.html'
+ARCHIVES_URL = 'archives/'
+AUTHORS_SAVE_AS = 'authors/index.html'
+AUTHORS_URL = 'authors/'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+CATEGORIES_URL = 'categories/'
+TAGS_SAVE_AS = 'tags/index.html'
+TAGS_URL = 'tags/'
+
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = './docs'
 
@@ -50,7 +59,6 @@ SOCIAL = (
             ('Codecademy', 'https://www.codecademy.com/profiles/764'),
          )
 
-# Blogroll
 # LINKS = (('PayPal.Me', 'https://paypal.me/devidwolf'),
 # ('Buy me a coffee', 'https://buymeacoffee.com/dwolf'),)
 
@@ -63,9 +71,9 @@ DEFAULT_PAGINATION = False
 
 THEME = './theme'
 
-# PLUGINS = [
-#     'plugins.assets',
-# ]
+PLUGINS = [
+    'plugins.asciidoc_reader',
+]
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
