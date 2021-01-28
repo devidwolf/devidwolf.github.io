@@ -70,20 +70,35 @@ PLUGINS = [
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-TITLE_SEPARATOR = '⁓'
+from datetime import date
 
-MEDIA = {
-    # 'logo': 'media/images/werewolf.svg',
-    'logo': 'media/images/dw-logo.svg',
-    'favicon': 'media/images/dw-favicon.svg',
-    'background': 'media/images/clouds.webp',
+"""used for copyright note in footer"""
+YEARS = {
+    'start': '12019', # start year is optional
+    'current': date.today().year + 10000, # human era
 }
 
+"""links displayed in page footer"""
+FOOTERITEMS = (
+    ('legal', 'legal/'), # title, link (SITEURL will be added automaticly)
+    ('privacy', 'privacy/'),
+)
+
+"""not used on index"""
+TITLE_SEPARATOR = '-' # Title - Site Name
+
+MEDIA = {
+    'logo': 'media/images/logo.svg',
+    'favicon': 'media/images/favicon.svg',
+    'background': 'media/images/background.webp', # on home
+}
+
+"""used wherever articles are listed"""
 TRANSLATIONS = {
-'en': {
-'flag': '🇬🇧'
-},
-'de': {
-'flag': '🇩🇪'
-},
+    'en': {
+        'flag': '🇬🇧'
+    },
+    'de': {
+        'flag': '🇩🇪'
+    },
 }

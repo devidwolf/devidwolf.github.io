@@ -12,14 +12,30 @@ See https://davidwolf.dev[live example]
 Available settings for `pelicanconf.py`:
 
 ```python
+from datetime import date
+
+"""used for copyright note in footer"""
+YEARS = {
+    'start': '12019', # start year is optional
+    'current': date.today().year + 10000, # human era
+}
+
+"""links displayed in page footer"""
+FOOTERITEMS = (
+    ('legal', 'legal/'), # title, link (SITEURL will be added automaticly)
+    ('privacy', 'privacy/'),
+)
+
+"""not used on index"""
 TITLE_SEPARATOR = '-' # Title - Site Name
 
 MEDIA = {
-    'menu': 'media/img/logo.svg',
-    'favicon': 'media/img/favicon.svg',
-    'background': 'media/img/background.webp', # on home
+    'logo': 'media/images/logo.svg',
+    'favicon': 'media/images/favicon.svg',
+    'background': 'media/images/background.webp', # on home
 }
 
+"""used wherever articles are listed"""
 TRANSLATIONS = {
     'en': {
         'flag': '🇬🇧'

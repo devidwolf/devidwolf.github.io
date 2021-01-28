@@ -3,15 +3,19 @@ body > footer
   background: linear-gradient(to top, transparentize(map-get($colors, grey), .1), transparentize(map-get($colors, grey), .5))
   backdrop-filter: blur(10px)
 
-  ul
-    margin: 0
+  .container
+    @media (min-width: map-get($breakpoints, md))
+      display: flex
+      justify-content: space-between
 
-    li.copyright
+    span.copyright
+      display: block
+      margin-top: .2rem
       font-size: .8rem
+      color: map-get($colors, lightgrey)
 
       @media (max-width: map-get($breakpoints, md))
-        display: block
-        margin-bottom: .5rem
+        margin-top: .5rem
 
-        + li
-          margin-left: 0
+    ul
+      margin: 0
