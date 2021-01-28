@@ -1,39 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
 
 <head>
   {% block head %}
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Pelican">
-
-  {% if page and page.noindex %}
-  <meta name="robots" content="noindex">
-  {% endif %}
-
-  <title>
-    {% block title %}{% endblock title %}
-    {{ TITLE_SEPARATOR }}
-    {{ SITENAME }}
-  </title>
-
-  {% if page and page.description %}
-  <meta name="description" content="{{ page.description }}">
-  {% endif %}
-  {% endblock head %}
-
-  <link rel="icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/dw-favicon.svg">
-
-  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/sass/import.min.css">
-
-  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/vendor/jquery-3.5.1.min.js"></script>
-  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/utilities.js"></script>
+    <title>
+      {% if self.title() %}
+        {% block title %}{% endblock title %}
+        {% if TITLE_SEPARATOR %}
+          {{ TITLE_SEPARATOR }}
+        {% else %}
+          ―
+        {% endif %}
+      {% endif %}
+      {{ SITENAME }}
+    </title>
+    {% include './includes/head.html' %}
+  {% endblock %}
 </head>
 
 <body>
-  {% include './partials/header.html' %}
+  {% block header %}
+  {% include './includes/header.html' %}
+  {% endblock %}
+
   {% block content %}{% endblock %}
-  {% include './partials/footer.html' %}
+
+  {% block footer %}
+  {% include './includes/footer.html' %}
+  {% endblock %}
+
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
 </body>
 

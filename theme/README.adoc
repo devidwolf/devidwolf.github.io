@@ -1,0 +1,40 @@
+= Pelican Theme Werewolf
+
+<a href='https://de.freepik.com/vektoren/flyer'>Flyer Vektor erstellt von freepik - de.freepik.com</a>
+
+:toc: left
+
+See https://davidwolf.dev[live example]
+
+
+== Settings
+
+Available settings for `pelicanconf.py`:
+
+```python
+TITLE_SEPARATOR = '-' # Title - Site Name
+
+MEDIA = {
+    'menu': 'media/img/logo.svg',
+    'favicon': 'media/img/favicon.svg',
+    'background': 'media/img/background.webp', # on home
+}
+
+TRANSLATIONS = {
+    'en': {
+        'flag': '🇬🇧'
+    },
+    'de': {
+        'flag': '🇩🇪'
+    },
+}
+```
+
+
+== Frontmatter
+
+Available frontmatter:
+
+```adoc
+:noindex: true // <meta name="robots" content="noindex">
+```

@@ -17,12 +17,16 @@ ul
 
 a
   outline: none
-  color: map-get($colors, blue)
   text-decoration: none
+
+  &[href]
+    color: map-get($colors, blue)
+
+  &:not([href])
+    cursor: not-allowed
 
   &:focus
     text-decoration: underline
-
 
   @media (hover: hover) and (pointer: fine)
     &[href]
@@ -33,3 +37,11 @@ hr
   border-style: solid
   border-color: map-get($colors, lightgrey)
   border-radius: 1px
+
+.highlight
+  padding: 0 1rem
+  border: .1rem solid map-get($colors, grey)
+  border-radius: .5rem
+
+  pre code
+    font-family: 'Fira Code', monospace

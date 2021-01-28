@@ -5,20 +5,19 @@ Tag {{ tag }}
 {% endblock %}
 
 {% block content %}
-<main class="container">
-  <h2>
-    <i class="icon">tag</i>
-    {{ tag }}
-  </h2>
+<main class="sidebar-container container">
 
-  <ul>
-    {% for article in articles %}
-    {% if tag in article.tags %}
-    <li>
-      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-    </li>
-    {% endif %}
+  {% include './includes/articles_aside.html' %}
+
+  <ol id="post-entries">
+    {% for article in articles | reverse %}
+      {% if article.tag == article.tag %}
+        <li>
+          {% include './includes/article_preview.html' %}
+        </li>
+      {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
+
 </main>
 {% endblock %}

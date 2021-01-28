@@ -7,29 +7,12 @@ Publications
 {% block content %}
 <main class="sidebar-container container">
 
-  {% include './partials/aside.html' %}
+  {% include './includes/articles_aside.html' %}
 
   <ol id="post-entries">
     {% for article in articles | reverse %}
     <li>
-      <article class="post-entry">
-        <header>
-          <h2>
-            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">
-              {{ article.title }}
-            </a>
-            <span>{{ TRANSLATIONS[article.lang]['flag'] }}</span>
-          </h2>
-        </header>
-        <!-- <footer>
-          <time datetime="{{ article.date.isoformat() }}">
-            {{ article.locale_date }}
-          </time>
-        </footer> -->
-        <main>
-          {{ article.description }}
-        </main>
-      </article>
+      {% include './includes/article_preview.html' %}
     </li>
     {% endfor %}
   </ol>

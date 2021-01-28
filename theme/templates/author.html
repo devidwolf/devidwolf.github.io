@@ -5,20 +5,19 @@ Author {{ author }}
 {% endblock %}
 
 {% block content %}
-<main class="container">
-  <h2>
-    <i class="icon">person</i>
-    {{ author }}
-  </h2>
+<main class="sidebar-container container">
 
-  <ul>
-    {% for article in articles %}
-    {% if article.author == author %}
-    <li>
-      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-    </li>
-    {% endif %}
+  {% include './includes/articles_aside.html' %}
+
+  <ol id="post-entries">
+    {% for article in articles | reverse %}
+      {% if article.author == article.author %}
+        <li>
+          {% include './includes/article_preview.html' %}
+        </li>
+      {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
+
 </main>
 {% endblock %}

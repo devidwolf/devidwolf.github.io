@@ -4,10 +4,12 @@
 import os
 import glob
 
-
 LANDING_VIDEOS = [os.path.basename(path) for path in glob.glob('./content/media/videos/landing-*.webm')]
 
-TITLE_SEPARATOR = '⁓'
+AUTHOR = 'David Wolf'
+SITENAME = 'David Wolf'
+# SITENAME = 'Werewolf'
+# SITEURL = 'http://localhost:8000'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages
@@ -26,17 +28,19 @@ ARCHIVES_SAVE_AS = 'archives/index.html'
 ARCHIVES_URL = 'archives/'
 AUTHORS_SAVE_AS = 'authors/index.html'
 AUTHORS_URL = 'authors/'
+AUTHOR_SAVE_AS = 'authors/{slug}/index.html'
+AUTHOR_URL = 'authors/{slug}/'
 CATEGORIES_SAVE_AS = 'categories/index.html'
 CATEGORIES_URL = 'categories/'
+CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
+CATEGORY_URL = 'categories/{slug}/'
 TAGS_SAVE_AS = 'tags/index.html'
 TAGS_URL = 'tags/'
+TAG_SAVE_AS = 'tags/{slug}/index.html'
+TAG_URL = 'tags/{slug}/'
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = './docs'
-
-AUTHOR = 'David Wolf'
-SITENAME = 'David Wolf'
-# SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -52,22 +56,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Social widget
-SOCIAL = (
-            ('GitHub', 'https://github.com/devidwolf'),
-            ('SoloLearn', 'https://www.sololearn.com/Profile/15515516'),
-            ('Codecademy', 'https://www.codecademy.com/profiles/764'),
-         )
-
-# LINKS = (('PayPal.Me', 'https://paypal.me/devidwolf'),
-# ('Buy me a coffee', 'https://buymeacoffee.com/dwolf'),)
-
-# AFFILIATES = (
-#             ('Get eco-friendly Web Hosting', 'green-hosting.svg', 'https://www.udmedia.de/r18841'),
-#             ('Royalty-Free Stock Video at Pond5', 'pond5.webp', 'https://www.pond5.com/?ref=PlanetNine'),
-#              )
-
 DEFAULT_PAGINATION = False
+
+MENUITEMS = (('publications', ARCHIVES_URL),)
+DISPLAY_CATEGORIES_ON_MENU = False
 
 THEME = './theme'
 
@@ -78,11 +70,20 @@ PLUGINS = [
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+TITLE_SEPARATOR = '⁓'
+
+MEDIA = {
+    # 'logo': 'media/images/werewolf.svg',
+    'logo': 'media/images/dw-logo.svg',
+    'favicon': 'media/images/dw-favicon.svg',
+    'background': 'media/images/clouds.webp',
+}
+
 TRANSLATIONS = {
-    'en': {
-        'flag': '🇬🇧'
-        },
-    'de': {
-        'flag': '🇩🇪'
-        }
+'en': {
+'flag': '🇬🇧'
+},
+'de': {
+'flag': '🇩🇪'
+},
 }

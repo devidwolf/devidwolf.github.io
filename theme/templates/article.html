@@ -22,7 +22,7 @@
 
 {% block content %}
 <main class="article sidebar-container container">
-  {% include "./partials/article_aside.html" %}
+  {% include "./includes/article_aside.html" %}
   <article>
     <header>
       <h1 class="entry-title">
@@ -38,5 +38,5 @@
   </article>
 </main>
 
-<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/article-nav.js"></script>
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/article.js"></script>
 {% endblock %}

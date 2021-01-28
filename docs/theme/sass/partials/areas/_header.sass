@@ -8,27 +8,31 @@ body > header
 
   .container
     display: flex
+    justify-content: space-between
     align-items: center
 
-    a
+    & > a
+      color: map-get($colors, lightgrey)
       $drop-shadow: drop-shadow(0 0 0.5rem map-get($colors, blue))
+
+      &[href]
+        @media (hover: hover) and (pointer: fine)
+          transition: 0.15s
+
+          &:hover
+            text-decoration: none
+            filter: $drop-shadow
+            transition: 0.15s
 
       &:focus
         filter: $drop-shadow
+
 
       img
         width: calc(var(--header-height) / 2)
         height: calc(var(--header-height) / 2)
         filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7))
 
-        @media (hover: hover) and (pointer: fine)
-          transition: 0.15s
-
-          &:hover
-            filter: $drop-shadow
-            transition: 0.15s
-
     nav
       ul
         margin: 0
-        margin-left: 1.5rem

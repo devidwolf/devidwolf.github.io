@@ -23,7 +23,16 @@ aside
       grid-column-gap: map-get($sizes, grid-gap)
 
     details
+      h3
+        text-align: center
+
       &[open]
+        h3
+          border-bottom: 0.1rem dashed transparentize(map-get($colors, lightgrey), 0.5)
+          padding-bottom: 0.3rem
+          margin-bottom: 1rem
+
+
         summary h3::before
           content: '- '
 
@@ -64,14 +73,6 @@ aside
 
     background: map-get($colors, grey)
     color: map-get($colors, lightgrey)
-
-    h3
-      text-align: center
-
-      @media (min-width: map-get($breakpoints, md))
-        border-bottom: 0.1rem dashed transparentize(map-get($colors, lightgrey), 0.5)
-        padding-bottom: 0.3rem
-        margin-bottom: 1rem
 
 ul.icon-list
   padding-left: 1rem

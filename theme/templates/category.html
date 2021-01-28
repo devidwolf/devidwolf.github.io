@@ -5,20 +5,19 @@ Category {{ category }}
 {% endblock %}
 
 {% block content %}
-<main class="container">
-  <h2>
-    <i class="icon">label</i>
-    {{ category }}
-  </h2>
+<main class="sidebar-container container">
 
-  <ul>
-    {% for article in articles %}
-    {% if article.category == category %}
-    <li>
-      <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-    </li>
-    {% endif %}
+  {% include './includes/articles_aside.html' %}
+
+  <ol id="post-entries">
+    {% for article in articles | reverse %}
+      {% if article.category == article.category %}
+        <li>
+          {% include './includes/article_preview.html' %}
+        </li>
+      {% endif %}
     {% endfor %}
-  </ul>
+  </ol>
+
 </main>
 {% endblock %}
