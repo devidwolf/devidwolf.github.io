@@ -1,6 +1,6 @@
-=== HTML-5-Syntax
+== 5. HTML-5-Syntax
 
-==== Dokumentenstruktur
+=== Dokumentenstruktur
 
 [source,html]
 ----
@@ -16,7 +16,7 @@
 ----
 
 
-==== Semantische ``div``s
+=== Semantische ``div``s
 
 [source,html]
 ----
@@ -29,7 +29,7 @@
 <footer>     <!-- Fußbereich    --></footer>
 ----
 
-==== Semantische Inhaltselemente
+=== Semantische Inhaltselemente
 * `<details>`
 * `<summary>`
 * `<figure>`

@@ -1,10 +1,10 @@
-=== Fotografische Bildgestaltung
+== 6. Fotografische Bildgestaltung
 
 :imagesdir: ../_images
 
-==== Grundlegendes
+=== Grundlegendes
 
-===== Blende
+==== Blende
 Größe der Objektivöffnung
 
 [options="header"]
@@ -20,7 +20,7 @@ Größe der Objektivöffnung
   (kleine Blendenzahl)
 |===
 
-===== Belichtungszeit/Verschlusszeit
+==== Belichtungszeit/Verschlusszeit
 Länge des Zeitraum in dem der Verschluss geöffnet ist und der Sensor Informationen über das einfallende Licht registriert
 
 [cols=3]
@@ -33,7 +33,7 @@ Länge des Zeitraum in dem der Verschluss geöffnet ist und der Sensor Informati
 | 1 Sekunde
 |===
 
-===== Brennweite
+==== Brennweite
 Resultiert in der Blickbreite
 
 [cols=3]
@@ -46,7 +46,7 @@ Resultiert in der Blickbreite
 | sd
 |===
 
-===== ISO
+==== ISO
 Digitale Erhellung
 
 [cols=3]
@@ -60,10 +60,45 @@ Digitale Erhellung
 |===
 
 
-==== Bildfehler & Lösungen
+=== Bildfehler & Lösungen
+
+[options="header"]
+|===
+
+| Problem | Ursache | Lösung
+
+| Unterbelichtet
+| Zu kleine Blendenöffnung +
+  Zu kurze Belichtungszeit +
+  Zu niedriger ISO
+| größere Blendenöffnung +
+  längere Belichtungszeit +
+  höherer ISO
+
+| Überbelichtet
+| Zu große Blendenöffnung +
+  Zu lange Belichtungszeit +
+  Zu hoher ISO
+| kleinere Blendenöffnung +
+  kürzere Belichtungszeit +
+  niedrigerer ISO
+
+| Bildrauschen
+| Zu hoher ISO
+| niedrigerer ISO
+
+| Unscharf
+| sa
+| as
+
+| Bildkrümmung
+| sa
+| as
+
+|===
 
 
-==== Schärfentiefe
+=== Schärfentiefe
 Gibt den Anteil des Bereiches im Bild an, der _scharf_ dargestellt wird. +
 
 [cols=2]
@@ -78,7 +113,7 @@ Gibt den Anteil des Bereiches im Bild an, der _scharf_ dargestellt wird. +
 |===
 
 
-===== Einflussfaktoren
+==== Einflussfaktoren
 
 [options="header"]
 |===
