@@ -10,7 +10,7 @@ Tag {{ tag }}
   {% include './includes/articles_aside.html' %}
 
   <ol id="post-entries">
-    {% for article in articles | reverse %}
+    {% for article in articles %}
       {% if article.tag == article.tag %}
         <li>
           {% include './includes/article_preview.html' %}

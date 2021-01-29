@@ -1,0 +1,34 @@
+= Mediengestalter Digital und Print: Zwischenprüfung 2021
+
+:author: David Wolf
+:description: Alle schriftlichen Themen der diesjährigen Zwischenprüfung genüsslich abgehandelt
+:category: media design
+:tags: cheatsheet
+:lang: de
+:date: 2021-01-28
+:modified: 2021-01-29
+:imagesdir: ./_images
+:includedir: ./_includes
+
+== Fachtehorie Digital + Print
+include::{includedir}/01_Print-Workflow.adoc[]
+
+include::{includedir}/02_Typografie.adoc[]
+
+include::{includedir}/03_Tonwertzunahme.adoc[]
+
+include::{includedir}/04_Cloud_Computing.adoc[]
+
+include::{includedir}/05_HTML-5-Syntax.adoc[]
+
+include::{includedir}/06_Fotografische_Bildgestaltung.adoc[]
+
+include::{includedir}/07_Datenhandling.adoc[]
+
+
+== Kommunikation, Arbeits- & Sozialrecht
+include::{includedir}/08_Deutsch.adoc[]
+
+include::{includedir}/09_Englisch.adoc[]
+
+include::{includedir}/10_Wiso.adoc[]

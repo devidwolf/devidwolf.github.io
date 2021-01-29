@@ -14,16 +14,17 @@ SITENAME = 'David Wolf'
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages
 # STATIC_EXCLUDES = ['sass']
+IGNORE_FILES = ['_includes']
+
+USE_FOLDER_AS_CATEGORY = False
 
 PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
-
 ARTICLE_PATHS = ['posts']
 ARTICLE_SAVE_AS = '{slug}/index.html'
 ARTICLE_URL = '{slug}/'
 ARTICLE_LANG_SAVE_AS = '{lang}/{slug}/index.html'
 ARTICLE_LANG_URL = '{lang}/{slug}/'
-
 ARCHIVES_SAVE_AS = 'archives/index.html'
 ARCHIVES_URL = 'archives/'
 AUTHORS_SAVE_AS = 'authors/index.html'
@@ -66,6 +67,8 @@ THEME = './theme'
 PLUGINS = [
     'plugins.asciidoc_reader',
 ]
+ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

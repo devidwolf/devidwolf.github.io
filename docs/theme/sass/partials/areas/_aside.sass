@@ -4,11 +4,11 @@
   // +container()
   @media (min-width: map-get($breakpoints, md))
     display: grid
-    grid-template-columns: 1fr 3fr
+    grid-template-columns: 30% 70%
     grid-column-gap: map-get($sizes, grid-gap)
 
-    @media (min-width: map-get($breakpoints, lg))
-      grid-template-columns: 1fr 5fr
+    // @media (min-width: map-get($breakpoints, lg))
+    //   grid-template-columns: 1fr 5fr
 
 aside
   .cards
@@ -24,6 +24,7 @@ aside
 
     details
       h3
+        margin: 0
         text-align: center
 
       &[open]
@@ -56,12 +57,14 @@ aside
       margin-bottom: 0.5rem
 
     nav
-      @for $i from 1 through 6
+      word-break: break-all
+
+      ul
+        padding: 0
+
+      @for $i from 2 through 6
         li[data-nav-level='#{$i}']
           margin-left: #{$i * 0.5}rem
-
-    // footer
-    //   color: map-get($colors, lightgrey)
 
 
   .card

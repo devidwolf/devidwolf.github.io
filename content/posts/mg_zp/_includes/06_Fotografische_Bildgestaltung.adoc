@@ -1,0 +1,115 @@
+=== Fotografische Bildgestaltung
+
+:imagesdir: ../_images
+
+==== Grundlegendes
+
+===== Blende
+Größe der Objektivöffnung
+
+[options="header"]
+|===
+| Einstellung | Ergebnis | Angabebeispiel
+| Kleine Blendenöffnung
+| dunkles Bild
+| f 16 +
+  (große Blendenzahl)
+| Große Blendenöffnung
+| helles Bild
+| f 2.8 +
+  (kleine Blendenzahl)
+|===
+
+===== Belichtungszeit/Verschlusszeit
+Länge des Zeitraum in dem der Verschluss geöffnet ist und der Sensor Informationen über das einfallende Licht registriert
+
+[cols=3]
+|===
+| Kurze Belichtungszeit
+| dunkles Bild
+| 1/1000 Sekunde
+| Lange Belichtungszeit
+| helles Bild
+| 1 Sekunde
+|===
+
+===== Brennweite
+Resultiert in der Blickbreite
+
+[cols=3]
+|===
+| Kleine Brennweite
+| schmales Sichtfeld
+| ds
+| Große Brennweite
+| breites Sichtfeld
+| sd
+|===
+
+===== ISO
+Digitale Erhellung
+
+[cols=3]
+|===
+| Geringer ISO
+| Geringe Helligkeit
+| ISO 100
+| Hoher ISO
+| Gesteigerte Helligkeit
+| ISO 1600
+|===
+
+
+==== Bildfehler & Lösungen
+
+
+==== Schärfentiefe
+Gibt den Anteil des Bereiches im Bild an, der _scharf_ dargestellt wird. +
+
+[cols=2]
+|===
+
+| Wenn viel im Bild scharf und eher wenig unscharf ist, liegt eine hohe Schärfentiefe vor.
+| image:+schaerfentiefe.jpg[]
+
+| Ist hingegen viel unscharf und eher wenig scharf, sprechen wir von einer geringen Schärfentiefe.
+| image:-schaerfentiefe.jpg[]
+
+|===
+
+
+===== Einflussfaktoren
+
+[options="header"]
+|===
+
+| Einflussfaktor | Einstellung | Ergebnis
+
+.2+| Blende
+| kleine Blendenöffnung +
+  (= große Blendenzahl)
+| mehr Schärfentiefe
+
+| große Blendenöffnung +
+ (= kleine Blendenzahl)
+| wenig Schärfentiefe
+
+.2+| Aufnahmeabstand
+| kurze Distanz +
+  (z. B. Makrofotografie)
+| wenig Schärfentiefe
+
+| lange Distanz +
+  (z. B. Landschaftsfotografie)
+| mehr Schärfentiefe
+
+.2+| Brennweite
+| kurze Brennweite
+  (z. B. Teleobjektiv)
+| mehr Schärfentiefe
+
+| lange Brennweite
+  (z. B. Weitwinkelobjektiv)
+| wenig Schärfentiefe
+
+|===
