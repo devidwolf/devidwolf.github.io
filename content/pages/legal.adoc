@@ -1,0 +1,10 @@
+:title: legal
+:description: legal notice
+:status: hidden
+:noindex: true
+
+== https://www.gesetze-im-internet.de/tmg/__5.html[§ 5 TMG]
+a [at] davidwolf [dot] dev +
+David Wolf +
+Königsberger Straße 5 +
+51545 Waldbröl
