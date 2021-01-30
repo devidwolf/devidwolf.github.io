@@ -7,8 +7,9 @@
 :lang: de
 :modified: 2021-01-30
 :date: 2021-01-28
-:imagesdir: ./_images
+:imagesdir: {attach}_images
 :includedir: ./_includes
+
 
 include::{includedir}/01_Print-Workflow.adoc[]
 

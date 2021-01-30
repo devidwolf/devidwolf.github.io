@@ -3,37 +3,37 @@
 
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
-# SITENAME = 'Werewolf'
+# SITENAME = 'Darksome'
 # SITEURL = 'http://localhost:8000'
 
 # PAGE_PATHS = ['pages']
-STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages
+STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
 # STATIC_EXCLUDES = ['sass']
 IGNORE_FILES = ['_includes']
 
 # USE_FOLDER_AS_CATEGORY = False
 
-PAGE_SAVE_AS = '{slug}/index.html'
-PAGE_URL = '{slug}/'
-ARTICLE_PATHS = ['posts']
-ARTICLE_SAVE_AS = '{slug}/index.html'
-ARTICLE_URL = '{slug}/'
-ARTICLE_LANG_SAVE_AS = '{lang}/{slug}/index.html'
-ARTICLE_LANG_URL = '{lang}/{slug}/'
-ARCHIVES_SAVE_AS = 'archives/index.html'
-ARCHIVES_URL = 'archives/'
-AUTHORS_SAVE_AS = 'authors/index.html'
-AUTHORS_URL = 'authors/'
-AUTHOR_SAVE_AS = 'authors/{slug}/index.html'
-AUTHOR_URL = 'authors/{slug}/'
-CATEGORIES_SAVE_AS = 'categories/index.html'
-CATEGORIES_URL = 'categories/'
-CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
-CATEGORY_URL = 'categories/{slug}/'
-TAGS_SAVE_AS = 'tags/index.html'
-TAGS_URL = 'tags/'
-TAG_SAVE_AS = 'tags/{slug}/index.html'
-TAG_URL = 'tags/{slug}/'
+PAGE_SAVE_AS            = '{slug}/index.html'
+PAGE_URL                = '{slug}/'
+ARTICLE_PATHS           = ['posts']
+ARTICLE_SAVE_AS         = '{slug}/index.html'
+ARTICLE_URL             = '{slug}/'
+ARTICLE_LANG_SAVE_AS    = '{lang}/{slug}/index.html'
+ARTICLE_LANG_URL        = '{lang}/{slug}/'
+ARCHIVES_SAVE_AS        = 'archives/index.html'
+ARCHIVES_URL            = 'archives/'
+AUTHORS_SAVE_AS         = 'authors/index.html'
+AUTHORS_URL             = 'authors/'
+AUTHOR_SAVE_AS          = 'authors/{slug}/index.html'
+AUTHOR_URL              = 'authors/{slug}/'
+CATEGORIES_SAVE_AS      = 'categories/index.html'
+CATEGORIES_URL          = 'categories/'
+CATEGORY_SAVE_AS        = 'categories/{slug}/index.html'
+CATEGORY_URL            = 'categories/{slug}/'
+TAGS_SAVE_AS            = 'tags/index.html'
+TAGS_URL                = 'tags/'
+TAG_SAVE_AS             = 'tags/{slug}/index.html'
+TAG_URL                 = 'tags/{slug}/'
 
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = './docs'

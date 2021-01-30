@@ -1,6 +1,6 @@
 == 6. Fotografische Bildgestaltung
 
-:imagesdir: ../_images
+// :imagesdir: ../_images
 
 === Grundlegendes
 
@@ -105,13 +105,12 @@ Gibt den Anteil des Bereiches im Bild an, der _scharf_ dargestellt wird. +
 |===
 
 | Wenn viel im Bild scharf und eher wenig unscharf ist, liegt eine hohe Schärfentiefe vor.
-| image:+schaerfentiefe.jpg[]
+| image:schaerfentiefe.jpg[]
 
 | Ist hingegen viel unscharf und eher wenig scharf, sprechen wir von einer geringen Schärfentiefe.
-| image:-schaerfentiefe.jpg[]
+| image:keine_schaerfentiefe.jpg[]
 
 |===
-
 
 ==== Einflussfaktoren
 

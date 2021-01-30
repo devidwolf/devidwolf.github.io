@@ -1,1 +1,18 @@
 == 3. Tonwertzunahme
+Allgemein bezeichnet es die Tonwertveränderung, also die Differenz, zwischen den Tonwerten in den Druckdaten im Vergleich zu den Tonwerten im Druck. Da die Tonwerte im Druck deutlich zunehmen sprechen wir von einer Tonwertzunahme.
+
+=== Einflussfaktoren
+- Rasterfeinheit
+- Rasterart (periodisch oder nichtperiodisch)
+- Druckplattentyp
+- Bedruckstoff
+
+
+=== Ursachen
+
+==== Punktverbreiterung
+Bei der Farbübertragung von der Druckplatte auf den Bedruckstoff kommt es zur Geometrischen Vergrößerung der eigentlichen Rasterpunkte. Das Ausmaß variiert je nach Bedruckstoff, Beispiel: Füller + Löschpapier. +
+Die Punktverbreiterung trägt mit einem Anteil von ⅓ zur gesamten Tonwertzunahme bei.
+
+==== Lichtfang
+Wenn Licht auf den Ausdrucke trifft, wird es nicht sofort wieder vom Papier zurückreflektiert sondern dringt ein Stück weit in dieses ein. Dabei kommt es zu einer seitlichen Streuung des Lichts. Wenn nun Licht auf unbedruckte Papierpartien einfällt kommt es vor, dass Teile des gestreuten Lichts durch die seitliche Streuung im Papier nicht wieder im ursprünglichen Einfallswinkel austreten, sondern durch bedruckte Teile hindurch zurückgeworfen werden. Das hat im Endeffekt dann eine allgemeine Verdunkelung zur Folge, die ⅔ der gesamten Tonwertzunahme zu verantworten hat.
