@@ -2,6 +2,7 @@
 
 Personal website
 
+[cols=2]
 |===
 
 | Static Site Generator
