@@ -1,3 +1,15 @@
 = https://davidwolf.dev[davidwolf.dev]
 
-Personal website created with the https://python.org[Python] 🐍 powered Static Site Generator https://getpelican.com[Pelican] 🐦 and hosted right here on https://pages.github.com[GitHub Pages] ❤️
+Personal website
+
+|===
+
+| Static Site Generator
+| https://getpelican.com[Pelican] 🐦
+
+| Theme
+| https://github.com/devidwolf/pelican-theme-darksome[Darksome]
+
+|===
+
+Hosted right here on https://pages.github.com[GitHub Pages] ❤️

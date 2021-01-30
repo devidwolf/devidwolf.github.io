@@ -2,11 +2,11 @@
 
 :author: David Wolf
 :description: Alle 10 schriftlichen Themen genüsslich abgehandelt
-:category: design
+:category: education
 :tags: cheatsheet
 :lang: de
+:modified: 2021-01-30
 :date: 2021-01-28
-:modified: 2021-01-29
 :imagesdir: ./_images
 :includedir: ./_includes
 
@@ -28,4 +28,4 @@ include::{includedir}/08_Deutsch.adoc[]
 
 include::{includedir}/09_Englisch.adoc[]
 
-include::{includedir}/10_Wiso.adoc[]
+include::{includedir}/10_WiSo.adoc[]

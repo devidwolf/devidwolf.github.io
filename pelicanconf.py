@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-import os
-import glob
-
-LANDING_VIDEOS = [os.path.basename(path) for path in glob.glob('./content/media/videos/landing-*.webm')]
-
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Werewolf'
@@ -16,7 +11,7 @@ STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages
 # STATIC_EXCLUDES = ['sass']
 IGNORE_FILES = ['_includes']
 
-USE_FOLDER_AS_CATEGORY = False
+# USE_FOLDER_AS_CATEGORY = False
 
 PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
@@ -62,7 +57,7 @@ DEFAULT_PAGINATION = False
 MENUITEMS = (('publications', ARCHIVES_URL),)
 DISPLAY_CATEGORIES_ON_MENU = False
 
-THEME = './theme'
+THEME = '../pelican-theme-darksome'
 
 PLUGINS = [
     'plugins.asciidoc_reader',
@@ -73,13 +68,11 @@ ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+"""theme specific settings below 👇"""
+
 from datetime import date
 
-"""used for copyright note in footer"""
-YEARS = {
-    'start': '12019', # start year is optional
-    'current': date.today().year + 10000, # human era
-}
+FOOTERTEXT = 'Copyright © 12019 - {0}'.format(date.today().year + 10000) # human era
 
 """links displayed in page footer"""
 FOOTERITEMS = (
