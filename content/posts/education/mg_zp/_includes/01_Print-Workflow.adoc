@@ -1,1 +1,38 @@
 == 1. Print Workflow
+
+Ein _Workflow_ legt in erster Linie wiederkehrende Arbeitsschritte sowie deren Abfolge fest.
+
+=== Ziele/Vorteile
+- vollständige, zentrale Datenerfassung
+- Standardisierung
+- jeder direkten Zugriff
+- Zeit sparen
+- Fehler minimieren
+- Kosten senken
+
+
+=== Ablauf
+. PrePress 1
+.. Datenanlieferung durch Kunde/Agentur/Verlag
+.. Verarbeitung, Aufbereitung Text-, Grafik-, Bilddaten
+. PrePress 2
+.. Bereitstellen Kundendaten für Produktion auf Server
+. PrePress 2
+.. Text-Bild-Grafik-Integration, Korrekturläufe
+.. Druckfreigabe, Seitenausgabe als PDF
+.. Ausschießen, Color Management, RIP
+.. Ausgabe digitale Druckform
+. Press
+.. Druck
+. PostPress
+.. Weiterverarbeitung
+.. Versand
+
+
+=== Daten, Formate
+
+==== PPF
+Das _**P**rint **P**roduction **F**ormat_ beinhaltet die meisten Daten aus Druckvorstufe, Druck plus Druckweiterverarbeitung. Dies ermöglicht es den betroffenen Druckereien ihre  wiederkehrenden Arbeitsabläufe weitgehend zu automatisieren.
+
+==== JDF
+Das _**J**ob **D**efinition **F**ormat_ dient als Austauschformat zwischen Druckmaschienen und anderen involvierten Produktionsstufen innerhalb eines typischen Printmedien-Workflows. Als Auszeichnungssprache kommt hier das tagbasierte XML zum Einsatz.
