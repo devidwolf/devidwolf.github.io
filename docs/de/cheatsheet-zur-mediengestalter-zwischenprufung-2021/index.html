@@ -703,7 +703,60 @@ Die Punktverbreiterung trägt mit einem Anteil von ⅓ zur gesamten Tonwertzunah
 <div class="sect1">
 <h2 id="_7_datenhandling">7. Datenhandling</h2>
 <div class="sectionbody">
-
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Programmversion</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Abwärtskompatibilität</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Neue Programmversionen können Daten aus Vorgänger-Versionen öffnen und verarbeiten</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aufwärtskompatibilität</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ältere Programmversionen können Daten aus den neusten Versionen öffnen und verarbeiten</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_betriebssystem">Betriebssystem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Betriebssysteme unterscheiden sich zum Teil in der Art und Weise wie sie mit Dateien umgehen. Das beinhaltet zum Beispiel wie sie den Dateityp einer vorliegenden Datei identifizieren, um beim dann beispielspeise das zuständge Programm zu starten, welches in der Lage ist die Datei korrekt zu verarbeiten.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dateityp identifizieren</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Case sensitive</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Windows</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anhand der Dateiendung</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nein</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mac OS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anhand des Dateikopf (Meta-Daten)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">nein</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unix</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anhand der Dateiendung</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ja</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">

@@ -1,1 +1,36 @@
 == 7. Datenhandling
+
+.Programmversion
+[cols=2]
+|===
+
+| Abwärtskompatibilität
+| Neue Programmversionen können Daten aus Vorgänger-Versionen öffnen und verarbeiten
+
+| Aufwärtskompatibilität
+| Ältere Programmversionen können Daten aus den neusten Versionen öffnen und verarbeiten
+
+|===
+
+
+== Betriebssystem
+
+Betriebssysteme unterscheiden sich zum Teil in der Art und Weise wie sie mit Dateien umgehen. Das beinhaltet zum Beispiel wie sie den Dateityp einer vorliegenden Datei identifizieren, um beim dann beispielspeise das zuständge Programm zu starten, welches in der Lage ist die Datei korrekt zu verarbeiten.
+
+|===
+
+| OS | Dateityp identifizieren | Case sensitive
+
+| Windows
+| Anhand der Dateiendung
+| nein
+
+| Mac OS
+| Anhand des Dateikopf (Meta-Daten)
+| nein
+
+| Unix
+| Anhand der Dateiendung
+| ja
+
+|===
