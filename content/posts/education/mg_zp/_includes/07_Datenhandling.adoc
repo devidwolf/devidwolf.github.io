@@ -13,7 +13,7 @@
 |===
 
 
-== Betriebssystem
+=== Betriebssystem
 
 Betriebssysteme unterscheiden sich zum Teil in der Art und Weise wie sie mit Dateien umgehen. Das beinhaltet zum Beispiel wie sie den Dateityp einer vorliegenden Datei identifizieren, um beim dann beispielspeise das zuständge Programm zu starten, welches in der Lage ist die Datei korrekt zu verarbeiten.
 
