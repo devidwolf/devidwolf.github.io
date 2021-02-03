@@ -1,1 +1,22 @@
 == 10. Arbeits- und Sozialrecht
+
+=== Berufs­aus­bildung
+
+
+=== Arbeitsrecht/Tarif­recht/Arbeits­schutz
+
+
+=== Betriebli­che Mit­be­stim­mung
+
+
+=== Sozialver­si­cherung
+
+|===
+
+| | Arbeitslosen | Kranken | Pflege | Renten | Unfall
+| Träger | Agentur Für Arbeit | Krankenkassen | Pflegekassen | Bund | Berufsgenossenschaft
+| Beitragshöhe | 2,4% | 14,6% | 3,05% | 18,6% | 14,6%
+
+|===
+
+=== Arbeits- und Sozialge­richtsbarkeit
