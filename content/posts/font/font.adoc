@@ -1,0 +1,32 @@
+= Font der Deutschen Korrekturzeichen nach DIN 16511
+:description: Digitale Schriftdatei, die die Deutschen Korrekturzeichen nach DIN 16511 enthält, sodass die Korrekturzeichen bequem am Computer verwendet werden können.
+:category: typography
+:tags: font
+:lang: de
+:slug: deutsche-korrekturzeichen-din-16511-font
+:date: 2021-02-05
+:modified: 2021-02-05
+
+DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den Programmen erstellt werden müssen. +
+Um sich diesen nervigen wiederkehrenden Aufwand zu sparen bräuchte es eine Schrift, sodass die Korrekturzeichen ganz einfach wie gewöhnliche Schriften in den gängigen Textverarbeitungsprogrammen wie Word, Pages, LibreOffice und in den Kreativ-Anwendungen wie in den Adobe Produkte Illustrator, Photoshop und InDesign verwendet werden können. Doch leider ist eine solche Font im Netz nirgends zu finden. +
+Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von der zukünftig erleichterten Arbeit habe ich mich der Aufgabe selbst angenommen und die meist verwendeten deutschen Korrekturzeichen der DIN 16511 in digitaler Form in detaillierter Handarbeit erstellt und in einer Schrift zusammengeführt.
+
+image::{attach}schriftensammlung.png[Alle Korrekturzeichen in der Schriftensammlung]
+
+Die Schrift liegt als TrueType Font zum Download bereit und enthält aktuell insgesamt 29 Korrekturzeichen. +
+Die einzelnen Korrekturzeichen sind über Ligaturen erreichbar. Das heißt für diese Font, dass du einfach eine Zahl zwischen `01` und `29` eingibst, diese  markierst und mit der Schrift `GermanCorrectionMarksDIN16511` formatierst. Andersherum funktioniert es übrigens ebenso, dazu setzt du erst die Schrift fest und tippst dann die Zahlenkombinationen ein. Das verwendete Programm wird die eingegebene Ligatur dann automatisch in das hinterlegte Korrekturzeichen verwandeln sobald du die 2. Ziffer eingegeben hast.
+
+video::{attach}ligatur.mp4[Verwendung von Ligaturen am Beispiel Adobe Illustrator, options="autoplay,loop,nocontrols"]
+
+Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese nach belieben einfärben und natürlich ebenfalls beliebig skalieren, ohne das es dabei zu irgendwelchen Verlusten kommt.
+
+Wenn du die Korrekturzeichen in Microsoft Word verwenden möchtest musst du sicherstellen das dort Ligaturen aktiviert sind. Stelle dazu sicher das im Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
+
+video::{attach}word.mp4[Verwendung von Ligaturen in Word, options='autoplay,loop,nocontrols']
+
+Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und sofort verwenden. Frei nach dem Motto _einmal zahlen - immer nutzen_. Nach der Bezahlung per PayPal erhältst du dann sofort deinen sicheren Download-Link.
+
+[.promo]
+http://alpha.fetchapp.com/sell/85d3a358[Jetzt erwerben]
+
+Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung 😃
