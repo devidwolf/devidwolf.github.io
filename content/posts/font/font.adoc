@@ -6,24 +6,67 @@
 :slug: deutsche-korrekturzeichen-din-16511-font
 :date: 2021-02-05
 :modified: 2021-02-05
+:docinfo1:
 
 DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den Programmen erstellt werden müssen. +
 Um sich diesen nervigen wiederkehrenden Aufwand zu sparen bräuchte es eine Schrift, sodass die Korrekturzeichen ganz einfach wie gewöhnliche Schriften in den gängigen Textverarbeitungsprogrammen wie Word, Pages, LibreOffice und in den Kreativ-Anwendungen wie in den Adobe Produkte Illustrator, Photoshop und InDesign verwendet werden können. Doch leider ist eine solche Font im Netz nirgends zu finden. +
-Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von der zukünftig erleichterten Arbeit habe ich mich der Aufgabe selbst angenommen und die meist verwendeten deutschen Korrekturzeichen der DIN 16511 in digitaler Form in detaillierter Handarbeit erstellt und in einer Schrift zusammengeführt.
+Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von der zukünftig erleichterten Arbeit habe ich mich der Aufgabe selbst angenommen und die meist verwendeten deutschen Korrekturzeichen der DIN 16511 in digitaler Form in detaillierter Handarbeit erstellt und in einer Schrift zusammengeführt. +
+Die Schrift liegt als TrueType Font zum Download bereit und enthält aktuell insgesamt 29 Korrekturzeichen.
 
 image::{attach}schriftensammlung.png[Alle Korrekturzeichen in der Schriftensammlung]
 
-Die Schrift liegt als TrueType Font zum Download bereit und enthält aktuell insgesamt 29 Korrekturzeichen. +
-Die einzelnen Korrekturzeichen sind über Ligaturen erreichbar. Das heißt für diese Font, dass du einfach eine Zahl zwischen `01` und `29` eingibst, diese  markierst und mit der Schrift `GermanCorrectionMarksDIN16511` formatierst. Andersherum funktioniert es übrigens ebenso, dazu setzt du erst die Schrift fest und tippst dann die Zahlenkombinationen ein. Das verwendete Programm wird die eingegebene Ligatur dann automatisch in das hinterlegte Korrekturzeichen verwandeln sobald du die 2. Ziffer eingegeben hast.
+== Verwendung
+Bei der Verwendung der Schrift bestehen in erster Linie drei mögliche Wege die Korrekturzeichen in deinen Dokumenten einzufügen, welche ich dir an dieser Stelle gerne kurz vorstellen möchte.
 
-video::{attach}ligatur.mp4[Verwendung von Ligaturen am Beispiel Adobe Illustrator, options="autoplay,loop,nocontrols"]
+=== Glypen
+Der wohl schnellste und einfachste Weg dein gewünschtes Korrekturzeichen einzufügen ist das sogenannte _Glyphenbedienfeld_ zu benutzen. In Illustrator findest du dies unter `Schrift > Glypen`.
 
-Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese nach belieben einfärben und natürlich ebenfalls beliebig skalieren, ohne das es dabei zu irgendwelchen Verlusten kommt.
+image::{attach}glypen.png[Glyphenbedienfeld in Illustrator]
 
-Wenn du die Korrekturzeichen in Microsoft Word verwenden möchtest musst du sicherstellen das dort Ligaturen aktiviert sind. Stelle dazu sicher das im Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
+=== Ligaturen
+Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Das heißt für diese Font, dass du einfach eine Zahl zwischen `01` und `29` eingibst, diese markierst und mit der Schrift `GermanCorrectionMarksDIN16511` formatierst. Andersherum funktioniert es übrigens ebenso, dazu legst du erst die Schrift fest und tippst dann die Zahlenkombinationen ein. Das verwendete Programm wird die eingegebene Ligatur dann automatisch in das hinterlegte Korrekturzeichen verwandeln sobald du die 2. Ziffer eingegeben hast.
 
-video::{attach}word.mp4[Verwendung von Ligaturen in Word, options='autoplay,loop,nocontrols']
+Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
 
+video::{attach}word.mp4[options='autoplay,loop,nocontrols,muted']
+
+Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉
+
+=== Kopieren
+Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist natürlich auch eine durchaus denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können (ℹ️ du kannst dich horizontal durch die Tabelle scrollen). Andernfalls dürften dich ganz viele `􏿮` erblicken.
+
+// [source, js]
+// ----
+// // script to extract values from icomoon demo.html file
+// let els = document.getElementsByClassName('unitRight');
+// let count = 0;
+// let tmp;
+// for (a of els) {
+//   if (!a.value.match(/[0-9]{2}/g)) {
+//     count += 1;
+//     // tmp = (count < 10) ? `0${count}` : count;
+//     console.log(`| ${a.value}`);
+//   }
+// }
+// ----
+
++++
+<style media="screen">
+  .germanCorrectionMarksFont tbody {
+    font-family: 'GermanCorrectionMarksDIN16511', sans-serif;
+  }
+</style>
++++
+
+[.germanCorrectionMarksFont]
+|===
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|===
+
+
+== Download
 Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und sofort verwenden. Frei nach dem Motto _einmal zahlen - immer nutzen_. Nach der Bezahlung per PayPal erhältst du dann sofort deinen sicheren Download-Link.
 
 [.promo]
