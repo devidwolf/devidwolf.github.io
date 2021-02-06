@@ -9,64 +9,63 @@
 :docinfo1:
 
 DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den jeweiligen Programmen erstellt werden müssen. Deutlich bequemer wäre da eine Schrift, die einem die Zeichenarbeit abnimmt. +
-Allerdings ist eine solche Font im Netz leider nirgends zu finden. +
-Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen der DIN 16511 in digitaler Form in erzeugt und in einer Schrift zusammengeführt. +
+Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen aus der DIN 16511 in digitaler Form erstellt und in einer Schrift zusammengeführt.
 
-image::{attach}schriftensammlung.png[Alle Korrekturzeichen in der Schriftensammlung]
+image::{attach}schriftensammlung_v2.1.png[Alle Korrekturzeichen in der Schriftensammlung vom Mac]
+
+Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach Belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉
 
 == Verwendung
 Bei der Verwendung der Schrift bestehen in erster Linie drei mögliche Wege die Korrekturzeichen in deinen Dokumenten einzufügen, welche ich dir an dieser Stelle gerne kurz vorstellen möchte.
 
 === Glypen
-Der wohl schnellste und einfachste Weg dein gewünschtes Korrekturzeichen einzufügen ist das sogenannte _Glyphenbedienfeld_ zu benutzen. In Illustrator findest du dies unter `Schrift > Glypen`.
+Der wohl schnellste und einfachste Weg das gewünschte Korrekturzeichen einzufügen ist das sogenannte _Glyphenbedienfeld_ mit ausgewählter Schrift zu benutzen. In Illustrator findest du dies zum Beispiel unter `Schrift > Glypen`.
 
 image::{attach}glypen.png[Glyphenbedienfeld in Illustrator]
 
 === Ligaturen
-Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Das heißt für diese Font, dass du einfach eine Zahl zwischen `01` und `29` eingibst, diese markierst und mit der Schrift `GermanCorrectionMarksDIN16511` formatierst. Andersherum funktioniert es übrigens ebenso, dazu legst du erst die Schrift fest und tippst dann die Zahlenkombinationen ein. Das verwendete Programm wird die eingegebene Ligatur dann automatisch in das hinterlegte Korrekturzeichen verwandeln sobald du die 2. Ziffer eingegeben hast.
+Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Hierzu legst du zunächst die Schrift `Korrekturzeichen-DIN-16511` fest, dann tippst du eine Zeichenkombination der Tabelle weiter unten ein und das verwendete Programm verwandelt diese dann automatisch in das hinterlegte Korrekturzeichen.
 
 Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
 
-video::{attach}word.mp4[options='autoplay,loop,nocontrols,muted']
-
-Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉
-
 === Kopieren
-In Arbeit ...
-// Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist natürlich auch eine durchaus denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können (ℹ️ du kannst dich horizontal durch die Tabelle scrollen). Andernfalls dürften dich ganz viele `􏿮` erblicken.
-//
-//
-// +++
-// <style media="screen">
-// .germanCorrectionMarksFont tbody {
-//   font-family: 'GermanCorrectionMarksDIN16511', sans-serif;
-// }
-// </style>
-// +++
-//
-// [.germanCorrectionMarksFont]
-// |===
-// | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29
-//
-// |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-// |===
+Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist natürlich auch eine durchaus denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift noch nicht auf deinem Computer dürften dich ganz viele `􏿮` erblicken.
+
++++
+<style media="screen">
+.germanCorrectionMarksFont tbody {
+  font-family: 'Korrekturzeichen-DIN-16511', sans-serif;
+}
+</style>
++++
+
+[.germanCorrectionMarksFont, options=header]
+|===
+| gcm_01-1 | gcm_01-2 | gcm_01-3 | gcm_01-4 | gcm_01-5 | gcm_01-6 | gcm_01-7 | gcm_01-8 | gcm_01-9 | gcm_02-1 | gcm_02-2 | gcm_02-3 | gcm_02-4 | gcm_03-1 | gcm_03-2 | gcm_03-3 | gcm_03-4 | gcm_04-1 | gcm_04-2 | gcm_04-3 | gcm_04-4 | gcm_04-5 | gcm_05-1 | gcm_05-2 | gcm_05-3 | gcm_05-4 | gcm_05-5 | gcm_05-6 | gcm_05-7 | gcm_05-8 | gcm_05-9 | gcm_05-10 | gcm_05-11 | gcm_06-1 | gcm_06-2 | gcm_06-3 | gcm_06-4 | gcm_06-5 | gcm_06-6 | gcm_06-7 | gcm_07-1 | gcm_08-1 | gcm_09-1 | gcm_10-1 | gcm_11-1 | gcm_12-1 | gcm_13-1 | gcm_14-1 | gcm_15-1 | gcm_16-1 | gcm_16-2 | gcm_16-3 | gcm_16-4 | gcm_17-1 | gcm_17-2 | gcm_17-3 | gcm_17-4 | gcm_17-5 | gcm_18-1 | gcm_18-2 | gcm_18-3 | gcm_18-4 | gcm_18-5 | gcm_19-1 | gcm_20-1 | gcm_21-1 | gcm_22-1 | gcm_23-1 | gcm_24-1 | gcm_25-1
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|===
 
 
 == Download
-Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und sofort verwenden. Nach der Bezahlung per PayPal erhältst du dann sofort deinen sicheren Download-Link.
+Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und gleich loslegen. Nach der Bezahlung per PayPal wird dir sofort automatisiert dein sicherer Download-Link zugestellt.
 
 [.promo]
 http://alpha.fetchapp.com/sell/85d3a358[Jetzt erwerben]
 
-Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung 😃
+Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung. 😃
 
 
 == Versionen
-//
-// === 2.0
-// * Umfang von 64 Zeichen
-// * neues Ordnungssystem für Ligaturen
+
+=== 2.1
+* Erweiterung des Umfangs auf insgesamt 70 Zeichen
+* Einzelne Zeichen lassen sich jetzt durch Aneinanderreihung zu mehrere Zeichen langen Konstrukten kombinieren
+
+=== 2.0
+* Erweiterung des Umfangs auf insgesamt 64 Zeichen
+* Neues Ordnungssystem für Ligaturen
 
 === 1.0
-- Umfang von 29 Zeichen
+- Umfang von insgesamt 29 Zeichen
 - Ligaturen von `01` bis `29`
