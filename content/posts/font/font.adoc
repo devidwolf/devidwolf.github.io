@@ -5,13 +5,12 @@
 :lang: de
 :slug: deutsche-korrekturzeichen-din-16511-font
 :date: 2021-02-05
-:modified: 2021-02-05
+:modified: 2021-02-06
 :docinfo1:
 
-DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den Programmen erstellt werden müssen. +
-Um sich diesen nervigen wiederkehrenden Aufwand zu sparen bräuchte es eine Schrift, sodass die Korrekturzeichen ganz einfach wie gewöhnliche Schriften in den gängigen Textverarbeitungsprogrammen wie Word, Pages, LibreOffice und in den Kreativ-Anwendungen wie in den Adobe Produkte Illustrator, Photoshop und InDesign verwendet werden können. Doch leider ist eine solche Font im Netz nirgends zu finden. +
-Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von der zukünftig erleichterten Arbeit habe ich mich der Aufgabe selbst angenommen und die meist verwendeten deutschen Korrekturzeichen der DIN 16511 in digitaler Form in detaillierter Handarbeit erstellt und in einer Schrift zusammengeführt. +
-Die Schrift liegt als TrueType Font zum Download bereit und enthält aktuell insgesamt 29 Korrekturzeichen.
+DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den jeweiligen Programmen erstellt werden müssen. Deutlich bequemer wäre da eine Schrift, die einem die Zeichenarbeit abnimmt. +
+Allerdings ist eine solche Font im Netz leider nirgends zu finden. +
+Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen der DIN 16511 in digitaler Form in erzeugt und in einer Schrift zusammengeführt. +
 
 image::{attach}schriftensammlung.png[Alle Korrekturzeichen in der Schriftensammlung]
 
@@ -33,43 +32,41 @@ video::{attach}word.mp4[options='autoplay,loop,nocontrols,muted']
 Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉
 
 === Kopieren
-Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist natürlich auch eine durchaus denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können (ℹ️ du kannst dich horizontal durch die Tabelle scrollen). Andernfalls dürften dich ganz viele `􏿮` erblicken.
-
-// [source, js]
-// ----
-// // script to extract values from icomoon demo.html file
-// let els = document.getElementsByClassName('unitRight');
-// let count = 0;
-// let tmp;
-// for (a of els) {
-//   if (!a.value.match(/[0-9]{2}/g)) {
-//     count += 1;
-//     // tmp = (count < 10) ? `0${count}` : count;
-//     console.log(`| ${a.value}`);
-//   }
+In Arbeit ...
+// Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist natürlich auch eine durchaus denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können (ℹ️ du kannst dich horizontal durch die Tabelle scrollen). Andernfalls dürften dich ganz viele `􏿮` erblicken.
+//
+//
+// +++
+// <style media="screen">
+// .germanCorrectionMarksFont tbody {
+//   font-family: 'GermanCorrectionMarksDIN16511', sans-serif;
 // }
-// ----
-
-+++
-<style media="screen">
-  .germanCorrectionMarksFont tbody {
-    font-family: 'GermanCorrectionMarksDIN16511', sans-serif;
-  }
-</style>
-+++
-
-[.germanCorrectionMarksFont]
-|===
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
-|===
+// </style>
+// +++
+//
+// [.germanCorrectionMarksFont]
+// |===
+// | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29
+//
+// |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+// |===
 
 
 == Download
-Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und sofort verwenden. Frei nach dem Motto _einmal zahlen - immer nutzen_. Nach der Bezahlung per PayPal erhältst du dann sofort deinen sicheren Download-Link.
+Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und sofort verwenden. Nach der Bezahlung per PayPal erhältst du dann sofort deinen sicheren Download-Link.
 
 [.promo]
 http://alpha.fetchapp.com/sell/85d3a358[Jetzt erwerben]
 
 Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung 😃
+
+
+== Versionen
+//
+// === 2.0
+// * Umfang von 64 Zeichen
+// * neues Ordnungssystem für Ligaturen
+
+=== 1.0
+- Umfang von 29 Zeichen
+- Ligaturen von `01` bis `29`

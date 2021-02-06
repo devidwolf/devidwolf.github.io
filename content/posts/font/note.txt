@@ -1,0 +1,14 @@
+[source, js]
+----
+// script to extract values from icomoon demo.html file
+let els = document.getElementsByClassName('unitRight');
+let count = 0;
+let tmp;
+for (a of els) {
+  if (!a.value.match(/[0-9]{2}/g)) {
+    count += 1;
+    // tmp = (count < 10) ? `0${count}` : count;
+    console.log(`| ${a.value}`);
+  }
+}
+----
