@@ -11,7 +11,7 @@
 DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den jeweiligen Programmen erstellt werden müssen. Deutlich bequemer wäre da eine Schrift, die einem die Zeichenarbeit abnimmt. +
 Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen aus der DIN 16511 in digitaler Form erstellt und in einer Schrift zusammengeführt.
 
-image::{attach}schriftensammlung_v2.1.png[Alle Korrekturzeichen in der Schriftensammlung vom Mac]
+image::{attach}font_v2.2.png[Alle Korrekturzeichen in der Schriftensammlung vom Mac]
 
 Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach Belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉
 
@@ -24,7 +24,7 @@ Der wohl schnellste und einfachste Weg das gewünschte Korrekturzeichen einzufü
 image::{attach}glypen.png[Glyphenbedienfeld in Illustrator]
 
 === Ligaturen
-Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Hierzu legst du zunächst die Schrift `Korrekturzeichen-DIN-16511` fest, dann tippst du eine Zeichenkombination der Tabelle weiter unten ein und das verwendete Programm verwandelt diese dann automatisch in das hinterlegte Korrekturzeichen.
+Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Hierzu legst du zunächst die Schrift `Korrekturzeichen-DIN-16511` fest, dann tippst du eine Zeichenkombination der <<table, Tabelle>> weiter unten ein und das verwendete Programm verwandelt diese dann automatisch in das hinterlegte Korrekturzeichen.
 
 Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
 
@@ -39,24 +39,28 @@ Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkom
 </style>
 +++
 
-[.germanCorrectionMarksFont, options=header]
+[.germanCorrectionMarksFont, id=table, options=header]
 |===
-| gcm_01-1 | gcm_01-2 | gcm_01-3 | gcm_01-4 | gcm_01-5 | gcm_01-6 | gcm_01-7 | gcm_01-8 | gcm_01-9 | gcm_02-1 | gcm_02-2 | gcm_02-3 | gcm_02-4 | gcm_03-1 | gcm_03-2 | gcm_03-3 | gcm_03-4 | gcm_04-1 | gcm_04-2 | gcm_04-3 | gcm_04-4 | gcm_04-5 | gcm_05-1 | gcm_05-2 | gcm_05-3 | gcm_05-4 | gcm_05-5 | gcm_05-6 | gcm_05-7 | gcm_05-8 | gcm_05-9 | gcm_05-10 | gcm_05-11 | gcm_06-1 | gcm_06-2 | gcm_06-3 | gcm_06-4 | gcm_06-5 | gcm_06-6 | gcm_06-7 | gcm_07-1 | gcm_08-1 | gcm_09-1 | gcm_10-1 | gcm_11-1 | gcm_12-1 | gcm_13-1 | gcm_14-1 | gcm_15-1 | gcm_16-1 | gcm_16-2 | gcm_16-3 | gcm_16-4 | gcm_17-1 | gcm_17-2 | gcm_17-3 | gcm_17-4 | gcm_17-5 | gcm_18-1 | gcm_18-2 | gcm_18-3 | gcm_18-4 | gcm_18-5 | gcm_19-1 | gcm_20-1 | gcm_21-1 | gcm_22-1 | gcm_23-1 | gcm_24-1 | gcm_25-1
+| c01-1 | c01-2 | c01-3 | c01-4 | c01-5 | c01-6 | c01-7 | c01-8 | c01-9 | c02-1 | c02-2 | c02-3 | c02-4 | c03-1 | c03-2 | c03-3 | c03-4 | c04-1 | c04-2 | c04-3 | c04-4 | c04-5 | c05-1 | c05-2 | c05-3 | c05-4 | c05-5 | c05-6 | c05-7 | c05-8 | c05-9 | c05-10 | c05-11 | c06-1 | c06-2 | c06-3 | c06-4 | c06-5 | c06-6 | c06-7 | c07-1 | c08-1 | c09-1 | c10-1 | c11-1 | c12-1 | c13-1 | c14-1 | c15-1 | c16-1 | c16-2 | c16-3 | c16-4 | c17-1 | c17-2 | c17-3 | c17-4 | c17-5 | c18-1 | c18-2 | c18-3 | c18-4 | c18-5 | c19-1 | c20-1 | c21-1 | c22-1 | c23-1 | c24-1 | c25-1
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
 |===
 
 
 == Download
-Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ herunterladen, installieren und gleich loslegen. Nach der Bezahlung per PayPal wird dir sofort automatisiert dein sicherer Download-Link zugestellt.
+Die `ttf`-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ als Desktop-Font herunterladen, installieren und gleich loslegen (weiteres zur <<licence, Lizenzierung>>). Nach der Bezahlung per PayPal wird dir sofort automatisiert dein sicherer Download-Link zugestellt.
+
+Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung. 😃
 
 [.promo]
 http://alpha.fetchapp.com/sell/85d3a358[Jetzt erwerben]
 
-Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung. 😃
-
 
 == Versionen
+
+=== 2.2
+* Korrektur von Zeichen 20
+* Vereinfachte Bezeichnungen für Ligaturen
 
 === 2.1
 * Erweiterung des Umfangs auf insgesamt 70 Zeichen
@@ -69,3 +73,8 @@ Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbs
 === 1.0
 - Umfang von insgesamt 29 Zeichen
 - Ligaturen von `01` bis `29`
+
+
+== Lizenz
+[#licence]
+Mit dem Erwerb bekommst du die Lizenz zur Verwendung der Font auf deinem Computer. Du darfst die Schrift in all deinen Programmen für private und auch kommerzielle Zwecke nutzen. Darin inbegriffen ist die Nutzung der Font in Dokumenten und statischen Bildern, diese dürfen komplett frei online und auf ausgedrucktem Gut eingesetzt werden.
