@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+# sudo pelican --autoreload --listen
+
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Darksome'
 # SITEURL = 'http://localhost:8000'
+SITEURL = 'https://davidwolf.dev'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
@@ -61,6 +64,7 @@ THEME = '../pelican-theme-darksome'
 
 PLUGINS = [
     'plugins.asciidoc_reader',
+    # 'plugins.pelican-seo',
 ]
 ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
 
@@ -81,7 +85,7 @@ FOOTERITEMS = (
 )
 
 """not used on index"""
-TITLE_SEPARATOR = '-' # Title - Site Name
+TITLE_SEPARATOR = '—' # Title — Site Name
 
 MEDIA = {
     'logo': 'media/images/logo.svg',

@@ -1,15 +1,15 @@
 = Font der Deutschen Korrekturzeichen nach DIN 16511
-:description: Digitale Schriftdatei, die die Deutschen Korrekturzeichen nach DIN 16511 enthält, sodass die Korrekturzeichen bequem am Computer verwendet werden können.
+:description: Digitale Schriftdatei (Font), die die Deutschen Korrekturzeichen nach DIN 16511 enthält, sodass die genormten Korrekturzeichen nun endlich auch bequem am Computer verwendet werden können.
 :category: typography
 :tags: font
 :lang: de
 :slug: deutsche-korrekturzeichen-din-16511-font
 :date: 2021-02-05
-:modified: 2021-02-06
+:modified: 2021-03-14
 :docinfo1:
 
 DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den jeweiligen Programmen erstellt werden müssen. Deutlich bequemer wäre da eine Schrift, die einem die Zeichenarbeit abnimmt. +
-Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen aus der DIN 16511 in digitaler Form erstellt und in einer Schrift zusammengeführt.
+Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen aus der DIN 16511 in digitaler Form erstellt und in einer Schrift (TrueType Font) zusammengeführt.
 
 image::{attach}font_v2.2.png[Alle Korrekturzeichen in der Schriftensammlung vom Mac]
 
@@ -19,17 +19,17 @@ Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich di
 Bei der Verwendung der Schrift bestehen in erster Linie drei mögliche Wege die Korrekturzeichen in deinen Dokumenten einzufügen, welche ich dir an dieser Stelle gerne kurz vorstellen möchte.
 
 === Glypen
-Der wohl schnellste und einfachste Weg das gewünschte Korrekturzeichen einzufügen ist das sogenannte _Glyphenbedienfeld_ mit ausgewählter Schrift zu benutzen. In Illustrator findest du dies zum Beispiel unter `Schrift > Glypen`.
+Der wohl schnellste und einfachste Weg das gewünschte Korrekturzeichen einzufügen ist das sogenannte _Glyphenbedienfeld_ mit ausgewählter Schrift zu benutzen. Im Programm Adobe Illustrator^®^ findest du dies zum Beispiel unter `Schrift > Glypen`.
 
 image::{attach}glypen.png[Glyphenbedienfeld in Illustrator]
 
 === Ligaturen
 Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Hierzu legst du zunächst die Schrift `Korrekturzeichen-DIN-16511` fest, dann tippst du eine Zeichenkombination der <<table, Tabelle>> weiter unten ein und das verwendete Programm verwandelt diese dann automatisch in das hinterlegte Korrekturzeichen.
 
-Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
+Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word^®^ verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
 
 === Kopieren
-Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist natürlich auch eine durchaus denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift noch nicht auf deinem Computer dürften dich ganz viele `􏿮` erblicken.
+Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist ebenfalls eine denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und anhand der Kopiervorlage diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift hingegen noch nicht auf deinem Computer dürften dich ganz viele `⍰` erblicken. 🙃
 
 +++
 <style media="screen">
@@ -59,8 +59,8 @@ http://alpha.fetchapp.com/sell/85d3a358[Jetzt erwerben]
 == Versionen
 
 === 2.2
-* Korrektur von Zeichen 20
-* Vereinfachte Bezeichnungen für Ligaturen
+* Korrektur von Zeichen №20
+* Vereinheitlichte Bezeichnungen für Ligaturen: `c{Zeichen}-{Variante}`, wobei `{Zeichen}` für die Nummer des Korrekturzeichens (`01`–`25`) und `{Variante}` für die Nummer einer der verfügbaren Varianten (`1`–`9`) des Zeichens steht
 
 === 2.1
 * Erweiterung des Umfangs auf insgesamt 70 Zeichen
