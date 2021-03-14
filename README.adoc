@@ -4,13 +4,12 @@ Personal website
 
 [cols=2]
 |===
-
 | Static Site Generator
 | https://getpelican.com[Pelican] 🐦
 
 | Theme
 | https://github.com/devidwolf/pelican-theme-darksome[Darksome]
 
+| Hoster
+| https://pages.github.com[GitHub Pages] ❤️
 |===
-
-Hosted right here on https://pages.github.com[GitHub Pages] ❤️
