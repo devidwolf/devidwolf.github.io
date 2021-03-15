@@ -7,7 +7,7 @@ AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Darksome'
 # SITEURL = 'http://localhost:8000'
-SITEURL = 'https://davidwolf.dev'
+# SITEURL = 'https://davidwolf.dev'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
@@ -75,6 +75,8 @@ ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
 """theme specific settings below 👇"""
 
 from datetime import date
+
+CANONICALURL = 'https:/david🐺.to'
 
 FOOTERTEXT = 'Copyright © 12019 - {0}'.format(date.today().year + 10000) # human era
 
