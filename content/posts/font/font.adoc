@@ -1,7 +1,7 @@
 = Font der Deutschen Korrekturzeichen nach DIN 16511
+
 :description: Digitale Schriftdatei (Font), welche die Deutschen Korrekturzeichen nach DIN 16511 enthält, sodass die genormten Korrekturzeichen nun endlich auch bequem am Computer verwendet werden können.
-:category: typography
-:tags: font
+:tags: typography, font
 :lang: de
 :slug: deutsche-korrekturzeichen-din-16511-font
 :date: 2021-02-05

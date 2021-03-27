@@ -6,15 +6,15 @@
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Darksome'
-# SITEURL = 'http://localhost:8000'
-SITEURL = 'https://davidwolf.dev'
+SITEURL = 'http://localhost:8000'
+# SITEURL = 'https://davidwolf.dev'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
 # STATIC_EXCLUDES = ['sass']
 IGNORE_FILES = ['_includes']
 
-# USE_FOLDER_AS_CATEGORY = False
+USE_FOLDER_AS_CATEGORY = False
 
 PAGE_SAVE_AS            = '{slug}/index.html'
 PAGE_URL                = '{slug}/'
@@ -56,6 +56,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = False
+# DEFAULT_CATEGORY = None
 
 MENUITEMS = (('publications', ARCHIVES_URL),)
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -78,6 +79,16 @@ from datetime import date
 
 CANONICALURL = 'https:/david🐺.to'
 
+"""not used on index"""
+TITLE_SEPARATOR = '—' # Title {{ TITLE_SEPARATOR }} Site Name
+
+"""
+decide which cards should be displayed on listing pages
+available: 'categories', 'tags', 'authors'
+"""
+# SIDEBAR_CARDS = ('categories', 'tags', 'authors')
+SIDEBAR_CARDS = ('tags')
+
 FOOTERTEXT = 'Copyright © 12019 - {0}'.format(date.today().year + 10000) # human era
 
 """links displayed in page footer"""
@@ -85,9 +96,6 @@ FOOTERITEMS = (
     ('legal', 'legal/'), # title, link (SITEURL will be added automaticly)
     ('privacy', 'privacy/'),
 )
-
-"""not used on index"""
-TITLE_SEPARATOR = '—' # Title — Site Name
 
 MEDIA = {
     'logo': 'media/images/logo.svg',
