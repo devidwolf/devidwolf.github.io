@@ -6,8 +6,8 @@
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Darksome'
-# SITEURL = 'http://localhost:8000'
-SITEURL = 'https://davidwolf.dev'
+SITEURL = 'http://localhost:8000'
+# SITEURL = 'https://davidwolf.dev'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
@@ -117,8 +117,7 @@ TRANSLATIONS = {
 }
 
 """raw blocks of json-ld to insert"""
-JSON_LD = {
-    'WebPage': '''
+JSON_LD = '''
     "creator": {
         "@type": "Person",
         "name": "David Wolf",
@@ -131,5 +130,4 @@ JSON_LD = {
             "https://github.com/devidwolf"
         ]
     },
-    ''',
-}
+'''
