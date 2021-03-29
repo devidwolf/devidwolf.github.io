@@ -127,6 +127,6 @@ JSON_LD = {
         "gender": "male",
         "email": "a [at] davidwolf [dot] dev",
         "url": "https://davidwolf.dev"
-    }
+    },
     ''',
 }
