@@ -77,7 +77,10 @@ ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
 
 from datetime import date
 
-CANONICALURL = 'https:/david🐺.to'
+CANONICALURLS = (
+    'https://www.davidwolf.dev',
+    'https://www.david🐺.to',
+)
 
 """not used on index"""
 TITLE_SEPARATOR = '—' # Title {{ TITLE_SEPARATOR }} Site Name
@@ -111,4 +114,19 @@ TRANSLATIONS = {
     'de': {
         'flag': '🇩🇪'
     },
+}
+
+"""raw blocks of json-ld to insert"""
+JSON_LD = {
+    'WebPage': '''
+    "creator": {
+        "@type": "Person",
+        "name": "David Wolf",
+        "givenName": "David",
+        "familyName": "Wolf",
+        "gender": "male",
+        "email": "a [at] davidwolf [dot] dev",
+        "url": "https://davidwolf.dev"
+    }
+    ''',
 }
