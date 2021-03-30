@@ -143,13 +143,13 @@ JSON_LD = '''
         ]
     },
     "author" : {
-        "@id": "person",
+        "@id": "person"
     },
     "editor" : {
-        "@id": "person",
+        "@id": "person"
     },
     "publisher" : {
-        "@id": "person",
+        "@id": "person"
     },
     "copyrightHolder": {
         "@id": "person"
