@@ -1,0 +1,44 @@
+"creator": {
+  "@type": "Person",
+  "@id": "person",
+  "name": "David Wolf",
+  "givenName": "David",
+  "familyName": "Wolf",
+  "nationality": "German",
+  "knowsLanguage": [{
+    "@type": "Language",
+    "name": "German",
+    "alternateName": "de"
+  }, {
+    "@type": "Language",
+    "name": "English",
+    "alternateName": "en"
+  }],
+  "gender": "male",
+  "height": "185 cm",
+  "image": "$url/media/images/david-wolf.jpeg",
+  "email": "a [at] davidwolf [dot] dev",
+  "url": "$url",
+  "sameAs": [
+    "https://github.com/devidwolf"
+  ],
+  "jobTitle": "Web Developer"
+},
+"author": {
+  "@id": "person"
+},
+"editor": {
+  "@id": "person"
+},
+"publisher": {
+  "@id": "person"
+},
+"copyrightHolder": {
+  "@id": "person"
+},
+"reviewedBy": {
+  "@id": "person"
+},
+"accountablePerson": {
+  "@id": "person"
+},

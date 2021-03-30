@@ -6,8 +6,8 @@
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Darksome'
-# SITEURL = 'http://localhost:8000'
-SITEURL = 'https://davidwolf.dev'
+SITEURL = 'http://localhost:8000'
+# SITEURL = 'https://davidwolf.dev'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
@@ -123,49 +123,8 @@ TRANSLATIONS = {
     },
 }
 
-"""raw blocks of json-ld to insert"""
-JSON_LD = '''
-    "creator": {
-        "@type": "Person",
-        "@id": "person",
-        "name": "David Wolf",
-        "givenName": "David",
-        "familyName": "Wolf",
-        "knowsLanguage": [{
-            "@type": "Language",
-            "name": "German",
-            "alternateName": "de"
-        }, {
-            "@type": "Language",
-            "name": "English",
-            "alternateName": "en"
-        }],
-        "gender": "male",
-        "image": "$url/media/images/david-wolf.jpeg",
-        "email": "a [at] davidwolf [dot] dev",
-        "url": "$url",
-        "sameAs": [
-            "https://github.com/devidwolf"
-        ]
-    },
-    "author" : {
-        "@id": "person"
-    },
-    "editor" : {
-        "@id": "person"
-    },
-    "publisher" : {
-        "@id": "person"
-    },
-    "copyrightHolder": {
-        "@id": "person"
-    },
-    "reviewedBy": {
-        "@id": "person"
-    },
-    "accountablePerson": {
-        "@id": "person"
-    },
-    '''
-t = Template(JSON_LD)
+"""raw json-ld to insert on every site"""
+with open('jsonld.json') as f:
+    json = f.read()
+t = Template(json)
 JSON_LD = t.substitute(url=SITEURL)
