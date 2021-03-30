@@ -65,9 +65,14 @@ THEME = '../pelican-theme-darksome'
 
 PLUGINS = [
     'plugins.asciidoc_reader',
+    'sitemap',
     # 'plugins.pelican-seo',
 ]
 ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
+# https://pypi.org/project/pelican-sitemap/
+SITEMAP = {
+    "format": "xml",
+}
 
 
 # Uncomment following line if you want document-relative URLs when developing
