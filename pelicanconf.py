@@ -6,8 +6,8 @@
 AUTHOR = 'David Wolf'
 SITENAME = 'David Wolf'
 # SITENAME = 'Darksome'
-# SITEURL = 'http://localhost:8000'
-SITEURL = 'https://davidwolf.dev'
+SITEURL = 'http://localhost:8000'
+# SITEURL = 'https://davidwolf.dev'
 
 # PAGE_PATHS = ['pages']
 STATIC_PATHS = ['CNAME', 'media'] # CNAME for GitHub Pages custom apex domain
@@ -76,6 +76,7 @@ ASCIIDOC_OPTIONS = ["-a source-highlighter=pygments"]
 """theme specific settings below 👇"""
 
 from datetime import date
+from string import Template
 
 CANONICALURLS = (
     'https://www.davidwolf.dev',
@@ -120,14 +121,45 @@ TRANSLATIONS = {
 JSON_LD = '''
     "creator": {
         "@type": "Person",
+        "@id": "person",
         "name": "David Wolf",
         "givenName": "David",
         "familyName": "Wolf",
+        "knowsLanguage": [{
+            "@type": "Language",
+            "name": "German",
+            "alternateName": "de"
+        }, {
+            "@type": "Language",
+            "name": "English",
+            "alternateName": "en"
+        }],
         "gender": "male",
+        "image": "$url/media/images/david-wolf.jpeg",
         "email": "a [at] davidwolf [dot] dev",
-        "url": "https://davidwolf.dev",
+        "url": "$url",
         "sameAs": [
             "https://github.com/devidwolf"
         ]
     },
-'''
+    "author" : {
+        "@id": "person",
+    },
+    "editor" : {
+        "@id": "person",
+    },
+    "publisher" : {
+        "@id": "person",
+    },
+    "copyrightHolder": {
+        "@id": "person"
+    },
+    "reviewedBy": {
+        "@id": "person"
+    },
+    "accountablePerson": {
+        "@id": "person"
+    },
+    '''
+t = Template(JSON_LD)
+JSON_LD = t.substitute(url=SITEURL)
