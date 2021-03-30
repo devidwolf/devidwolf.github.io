@@ -85,6 +85,7 @@ from string import Template
 
 CANONICALURLS = (
     'https://www.davidwolf.dev',
+    'https://david🐺.to',
     'https://www.david🐺.to',
 )
 
