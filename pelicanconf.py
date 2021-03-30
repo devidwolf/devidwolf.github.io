@@ -109,6 +109,7 @@ FOOTERITEMS = (
 
 MEDIA = {
     'logo': 'media/images/logo.svg',
+    'og-image': 'media/images/og-image.webp',
     'favicon': 'media/images/favicon.svg',
     'background': 'media/images/background.webp', # on home
 }
