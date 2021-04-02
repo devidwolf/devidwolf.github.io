@@ -1,10 +1,11 @@
 "creator": {
   "@type": "Person",
-  "@id": "person",
+  "@id": "#person",
   "name": "David Wolf",
   "givenName": "David",
   "familyName": "Wolf",
   "nationality": "German",
+  "homeLocation": "Germany",
   "knowsLanguage": [{
     "@type": "Language",
     "name": "German",
@@ -20,25 +21,27 @@
   "email": "a [at] davidwolf [dot] dev",
   "url": "$url",
   "sameAs": [
-    "https://github.com/devidwolf"
+    "https://github.com/devidwolf",
+    "https://paypal.me/devidwolf",
+    "https://buymeacoffee.com/dwolf"
   ],
   "jobTitle": "Web Developer"
 },
 "author": {
-  "@id": "person"
+  "@id": "#person"
 },
 "editor": {
-  "@id": "person"
+  "@id": "#person"
 },
 "publisher": {
-  "@id": "person"
+  "@id": "#person"
 },
 "copyrightHolder": {
-  "@id": "person"
+  "@id": "#person"
 },
 "reviewedBy": {
-  "@id": "person"
+  "@id": "#person"
 },
 "accountablePerson": {
-  "@id": "person"
+  "@id": "#person"
 },
