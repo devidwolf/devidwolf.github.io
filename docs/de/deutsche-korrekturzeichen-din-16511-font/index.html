@@ -272,235 +272,378 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 <div class="paragraph">
 <p>
 <style media="screen">
-.germanCorrectionMarksFont tbody {
-  font-family: 'Korrekturzeichen-DIN-16511', sans-serif;
+.gcmf tbody tr td:nth-child(2),
+.gcmf tbody tr td:nth-child(3),
+.gcmf tbody tr td[rowspan] + td + td,
+.gcmf tbody tr td:not([rowspan]) + td + td,
+.gcmf tbody tr td:first-child + td:last-child
+{
+  font-family: 'Korrekturzeichen-DIN-16511';
+}
+/**/
+.gcmf tbody tr td[rowspan] + td,
+.gcmf tbody tr td:not([rowspan]) + td,
+.gcmf tbody tr td + td + td + td:last-child
+{
+  font-family: inherit;
 }
 </style>
 </p>
 </div>
-<table id="table" class="tableblock frame-all grid-all stretch germanCorrectionMarksFont">
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_zeichensatz">Zeichensatz</h2>
+<div class="sectionbody">
+<table id="table" class="tableblock frame-all grid-all stretch gcmf">
 <colgroup>
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4285%;">
-<col style="width: 1.4335%;">
+<col style="width: 10%;">
+<col style="width: 15%;">
+<col style="width: 15%;">
+<col style="width: 60%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">c01-1</th>
-<th class="tableblock halign-left valign-top">c01-2</th>
-<th class="tableblock halign-left valign-top">c01-3</th>
-<th class="tableblock halign-left valign-top">c01-4</th>
-<th class="tableblock halign-left valign-top">c01-5</th>
-<th class="tableblock halign-left valign-top">c01-6</th>
-<th class="tableblock halign-left valign-top">c01-7</th>
-<th class="tableblock halign-left valign-top">c01-8</th>
-<th class="tableblock halign-left valign-top">c01-9</th>
-<th class="tableblock halign-left valign-top">c02-1</th>
-<th class="tableblock halign-left valign-top">c02-2</th>
-<th class="tableblock halign-left valign-top">c02-3</th>
-<th class="tableblock halign-left valign-top">c02-4</th>
-<th class="tableblock halign-left valign-top">c03-1</th>
-<th class="tableblock halign-left valign-top">c03-2</th>
-<th class="tableblock halign-left valign-top">c03-3</th>
-<th class="tableblock halign-left valign-top">c03-4</th>
-<th class="tableblock halign-left valign-top">c04-1</th>
-<th class="tableblock halign-left valign-top">c04-2</th>
-<th class="tableblock halign-left valign-top">c04-3</th>
-<th class="tableblock halign-left valign-top">c04-4</th>
-<th class="tableblock halign-left valign-top">c04-5</th>
-<th class="tableblock halign-left valign-top">c05-1</th>
-<th class="tableblock halign-left valign-top">c05-2</th>
-<th class="tableblock halign-left valign-top">c05-3</th>
-<th class="tableblock halign-left valign-top">c05-4</th>
-<th class="tableblock halign-left valign-top">c05-5</th>
-<th class="tableblock halign-left valign-top">c05-6</th>
-<th class="tableblock halign-left valign-top">c05-7</th>
-<th class="tableblock halign-left valign-top">c05-8</th>
-<th class="tableblock halign-left valign-top">c05-9</th>
-<th class="tableblock halign-left valign-top">c05-10</th>
-<th class="tableblock halign-left valign-top">c05-11</th>
-<th class="tableblock halign-left valign-top">c06-1</th>
-<th class="tableblock halign-left valign-top">c06-2</th>
-<th class="tableblock halign-left valign-top">c06-3</th>
-<th class="tableblock halign-left valign-top">c06-4</th>
-<th class="tableblock halign-left valign-top">c06-5</th>
-<th class="tableblock halign-left valign-top">c06-6</th>
-<th class="tableblock halign-left valign-top">c06-7</th>
-<th class="tableblock halign-left valign-top">c07-1</th>
-<th class="tableblock halign-left valign-top">c08-1</th>
-<th class="tableblock halign-left valign-top">c09-1</th>
-<th class="tableblock halign-left valign-top">c10-1</th>
-<th class="tableblock halign-left valign-top">c11-1</th>
-<th class="tableblock halign-left valign-top">c12-1</th>
-<th class="tableblock halign-left valign-top">c13-1</th>
-<th class="tableblock halign-left valign-top">c14-1</th>
-<th class="tableblock halign-left valign-top">c15-1</th>
-<th class="tableblock halign-left valign-top">c16-1</th>
-<th class="tableblock halign-left valign-top">c16-2</th>
-<th class="tableblock halign-left valign-top">c16-3</th>
-<th class="tableblock halign-left valign-top">c16-4</th>
-<th class="tableblock halign-left valign-top">c17-1</th>
-<th class="tableblock halign-left valign-top">c17-2</th>
-<th class="tableblock halign-left valign-top">c17-3</th>
-<th class="tableblock halign-left valign-top">c17-4</th>
-<th class="tableblock halign-left valign-top">c17-5</th>
-<th class="tableblock halign-left valign-top">c18-1</th>
-<th class="tableblock halign-left valign-top">c18-2</th>
-<th class="tableblock halign-left valign-top">c18-3</th>
-<th class="tableblock halign-left valign-top">c18-4</th>
-<th class="tableblock halign-left valign-top">c18-5</th>
-<th class="tableblock halign-left valign-top">c19-1</th>
-<th class="tableblock halign-left valign-top">c20-1</th>
-<th class="tableblock halign-left valign-top">c21-1</th>
-<th class="tableblock halign-left valign-top">c22-1</th>
-<th class="tableblock halign-left valign-top">c23-1</th>
-<th class="tableblock halign-left valign-top">c24-1</th>
-<th class="tableblock halign-left valign-top">c25-1</th>
+<th class="tableblock halign-left valign-top">№</th>
+<th class="tableblock halign-left valign-top">Ligatur</th>
+<th class="tableblock halign-left valign-top">Zeichen</th>
+<th class="tableblock halign-left valign-top">Bedeutung</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td class="tableblock halign-left valign-top" rowspan="9"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="9"><p class="tableblock">Einzelnes Zeichen für Ersatz oder Löschung kennzeichnen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-5</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-6</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-7</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-8</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c01-9</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c02-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">Absatz einfügen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c02-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c02-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c02-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c03-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">Wortzwischenraum einfügen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c03-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c03-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c03-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c04-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">Zeichenreihenfolge umkehren</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c04-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c04-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c04-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c04-5</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="11"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="11"><p class="tableblock">Zeichenfolge für Ersatz oder Löschung kennzeichnen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-5</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-6</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-7</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-8</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-9</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-10</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c05-11</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="7"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="7"><p class="tableblock">Texteinzug am Zeilenbeginn löschen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-5</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-6</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c06-7</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c07-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Texteinzug Zeilenbeginn löschen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c08-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Texteinzug am Zeilenende löschen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c09-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zeile einfügen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c10-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Verrutscht Zeile kennzeichen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c11-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Punkt vertikal zentrieren</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c12-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Wörterreiehnfolge umkehren</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c13-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ausschuss löschen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c14-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zeichen(folge) blockieren</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c15-1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Einzug einfügen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c16-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">Zeichenfolge einschieben</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c16-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c16-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c16-4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">17</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c17-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">Zwischenraum verringern</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c17-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c17-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c17-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c17-5</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">18</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c18-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">Zwischenraum vergrößern</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c18-2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c18-3</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c18-4</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c18-5</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c19-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zeilenabstand bzw. Durchschuss verringern</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c20-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zeilenabstand bzw. Durchschuss vergrößern</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c21-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zeilen verbinden, Umbruch löschen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c22-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Worttrennung verbessern</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c23-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zwischenraum löschen, zusammenschreiben</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c24-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unleserlichkeit/Beschädigung kennzeichen</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c25-1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Makierung tilgen/löschen (Deleaturzeichen)</p></td>
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 </div>
 <div class="sect1">
