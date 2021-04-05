@@ -105,8 +105,9 @@ FOOTERTEXT = 'Copyright © 12019 - {0}'.format(date.today().year + 10000)
 
 """links displayed in page footer"""
 FOOTERITEMS = (
-    ('legal', 'legal/'),  # title, link (SITEURL will be added automaticly)
-    ('privacy', 'privacy/'),
+    ('Legal', 'legal/'),  # title, link (SITEURL will be added automaticly)
+    ('Privacy', 'privacy/'),
+    ('Feed', 'feed.xml'),
 )
 
 MEDIA = {
