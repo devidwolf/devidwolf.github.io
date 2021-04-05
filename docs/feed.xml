@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>David Wolf</title><link href="https://davidwolf.dev/" rel="alternate"></link><link href="https://davidwolf.dev/feed.xml" rel="self"></link><id>https://davidwolf.dev/</id><updated>2021-04-05T00:00:00+02:00</updated><entry><title>Font der Deutschen Korrekturzeichen nach DIN 16511</title><link href="https://davidwolf.dev/de/deutsche-korrekturzeichen-din-16511-font/" rel="alternate"></link><published>2021-02-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+02:00</updated><author><name>David Wolf</name></author><id>tag:davidwolf.dev,2021-02-05:/de/deutsche-korrekturzeichen-din-16511-font/</id><summary type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;
+&lt;script type="application/ld+json"&gt;
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Deutsche Korrekturzeichen Font (DIN 16511 Standard)",
+    "image": "https://davidwolf.dev/media/images/font-header.webp",
+    "description": "Digitale Schriftdatei (Desktop Font) mit allen deutschen Korrekturzeichen nach DIN 16511 für die Textkorrektur.",
+    "sku": "16511",
+    "mpn": "16511",
+    "brand": {
+      "@type": "Brand",
+      "name": "David Wolf"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating …&lt;/script&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preamble"&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;
+&lt;script type="application/ld+json"&gt;
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Deutsche Korrekturzeichen Font (DIN 16511 Standard)",
+    "image": "https://davidwolf.dev/media/images/font-header.webp",
+    "description": "Digitale Schriftdatei (Desktop Font) mit allen deutschen Korrekturzeichen nach DIN 16511 für die Textkorrektur.",
+    "sku": "16511",
+    "mpn": "16511",
+    "brand": {
+      "@type": "Brand",
+      "name": "David Wolf"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "David Wolf"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "1"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "http://alpha.fetchapp.com/sell/85d3a358",
+      "priceCurrency": "EUR",
+      "price": "5.00",
+      "priceValidUntil": "2021-12-31",
+      "itemCondition": "https://schema.org/UsedCondition",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+&lt;/script&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den jeweiligen Programmen erstellt werden müssen. Deutlich bequemer wäre da eine Schrift, die einem die Zeichenarbeit abnimmt.&lt;br&gt;
+Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen aus der DIN 16511 in digitaler Form erstellt und in einer Schrift (TrueType Font) zusammengeführt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://davidwolf.dev/de/deutsche-korrekturzeichen-din-16511-font/font_v2.2.png" alt="Alle Korrekturzeichen in der Schriftensammlung vom Mac"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach Belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="_verwendung"&gt;Verwendung&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Bei der Verwendung der Schrift bestehen in erster Linie drei mögliche Wege die Korrekturzeichen in deinen Dokumenten einzufügen, welche ich dir an dieser Stelle gerne kurz vorstellen möchte.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_glypen"&gt;Glypen&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Der wohl schnellste und einfachste Weg das gewünschte Korrekturzeichen einzufügen ist das sogenannte &lt;em&gt;Glyphenbedienfeld&lt;/em&gt; mit ausgewählter Schrift zu benutzen. Im Programm Adobe Illustrator&lt;sup&gt;®&lt;/sup&gt; findest du dies zum Beispiel unter &lt;code&gt;Schrift &amp;gt; Glypen&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://davidwolf.dev/de/deutsche-korrekturzeichen-din-16511-font/glypen.png" alt="Glyphenbedienfeld in Illustrator"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_ligaturen"&gt;Ligaturen&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreichbar. Hierzu legst du zunächst die Schrift &lt;code&gt;Korrekturzeichen-DIN-16511&lt;/code&gt; fest, dann tippst du eine Zeichenkombination der &lt;a href="#table"&gt;Tabelle&lt;/a&gt; weiter unten ein und das verwendete Programm verwandelt diese dann automatisch in das hinterlegte Korrekturzeichen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word&lt;sup&gt;®&lt;/sup&gt; verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad &lt;code&gt;Format &amp;gt; Schriftart &amp;gt; Erweitert &amp;gt; Erweiterte Typografie&lt;/code&gt; die Option &lt;code&gt;Ligaturen&lt;/code&gt; auf &lt;code&gt;Alle&lt;/code&gt; gesetzt ist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_kopieren"&gt;Kopieren&lt;/h3&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten Tastenkombinationen &lt;code&gt;⌘ + C&lt;/code&gt; und &lt;code&gt;⌘ + V&lt;/code&gt; bzw. &lt;code&gt;STRG + C&lt;/code&gt; und &lt;code&gt;STRG + V&lt;/code&gt; ist ebenfalls eine denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und anhand der Kopiervorlage diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift hingegen noch nicht auf deinem Computer dürften dich ganz viele &lt;code&gt;⍰&lt;/code&gt; erblicken. 🙃&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;
+&lt;style media="screen"&gt;
+.gcmf tbody tr td:nth-child(2),
+.gcmf tbody tr td:nth-child(3),
+.gcmf tbody tr td[rowspan] + td + td,
+.gcmf tbody tr td:not([rowspan]) + td + td,
+.gcmf tbody tr td:first-child + td:last-child
+{
+  font-family: 'Korrekturzeichen-DIN-16511';
+}
+/**/
+.gcmf tbody tr td[rowspan] + td,
+.gcmf tbody tr td:not([rowspan]) + td,
+.gcmf tbody tr td + td + td + td:last-child
+{
+  font-family: inherit;
+}
+&lt;/style&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="_zeichensatz"&gt;Zeichensatz&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;table id="table" class="tableblock frame-all grid-all stretch gcmf"&gt;
+&lt;colgroup&gt;
+&lt;col style="width: 10%;"&gt;
+&lt;col style="width: 15%;"&gt;
+&lt;col style="width: 15%;"&gt;
+&lt;col style="width: 60%;"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;№&lt;/th&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;Ligatur&lt;/th&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;Zeichen&lt;/th&gt;
+&lt;th class="tableblock halign-left valign-top"&gt;Bedeutung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="9"&gt;&lt;p class="tableblock"&gt;1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="9"&gt;&lt;p class="tableblock"&gt;Einzelnes Zeichen für Ersatz oder Löschung kennzeichnen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-6&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-7&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-8&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c01-9&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="4"&gt;&lt;p class="tableblock"&gt;2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c02-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="4"&gt;&lt;p class="tableblock"&gt;Absatz einfügen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c02-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c02-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c02-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="4"&gt;&lt;p class="tableblock"&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c03-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="4"&gt;&lt;p class="tableblock"&gt;Wortzwischenraum einfügen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c03-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c03-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c03-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="5"&gt;&lt;p class="tableblock"&gt;4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c04-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="5"&gt;&lt;p class="tableblock"&gt;Zeichenreihenfolge umkehren&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c04-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c04-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c04-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c04-5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="11"&gt;&lt;p class="tableblock"&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="11"&gt;&lt;p class="tableblock"&gt;Zeichenfolge für Ersatz oder Löschung kennzeichnen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-6&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-7&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-8&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-9&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-10&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c05-11&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="7"&gt;&lt;p class="tableblock"&gt;6&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="7"&gt;&lt;p class="tableblock"&gt;Texteinzug am Zeilenbeginn löschen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-6&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c06-7&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;7&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c07-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Texteinzug Zeilenbeginn löschen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;8&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c08-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Texteinzug am Zeilenende löschen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;9&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c09-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Zeile einfügen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;10&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c10-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Verrutscht Zeile kennzeichen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;11&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c11-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Punkt vertikal zentrieren&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;12&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c12-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Wörterreiehnfolge umkehren&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;13&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c13-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Ausschuss löschen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;14&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c14-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Zeichen(folge) blockieren&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;15&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c15-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Einzug einfügen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="4"&gt;&lt;p class="tableblock"&gt;16&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c16-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="4"&gt;&lt;p class="tableblock"&gt;Zeichenfolge einschieben&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c16-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c16-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c16-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="5"&gt;&lt;p class="tableblock"&gt;17&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c17-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="5"&gt;&lt;p class="tableblock"&gt;Zwischenraum verringern&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c17-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c17-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c17-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c17-5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="5"&gt;&lt;p class="tableblock"&gt;18&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c18-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top" rowspan="5"&gt;&lt;p class="tableblock"&gt;Zwischenraum vergrößern&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c18-2&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c18-3&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c18-4&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c18-5&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;19&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c19-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Zeilenabstand bzw. Durchschuss verringern&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;20&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c20-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Zeilenabstand bzw. Durchschuss vergrößern&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;21&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c21-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Zeilen verbinden, Umbruch löschen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;22&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c22-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Worttrennung verbessern&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;23&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c23-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Zwischenraum löschen, zusammenschreiben&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;24&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c24-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Unleserlichkeit/Beschädigung kennzeichen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;25&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;c25-1&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;Makierung tilgen/löschen (Deleaturzeichen)&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="_download"&gt;Download&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Die &lt;code&gt;ttf&lt;/code&gt;-Datei kannst du dir auf deinem PC oder Mac für ein einmaligen Preis von 5,00€ als Desktop-Font herunterladen, installieren und gleich loslegen (weiteres zur &lt;a href="#licence"&gt;Lizenzierung&lt;/a&gt;). Nach der Bezahlung per PayPal wird dir sofort automatisiert dein sicherer Download-Link zugestellt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Ich wünsche dir viel Freude mit der Font und stehe dir bei Komplikationen selbstverständlich jederzeit zur Verfügung. 😃&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph promo"&gt;
+&lt;p&gt;&lt;a href="http://alpha.fetchapp.com/sell/85d3a358"&gt;Jetzt erwerben&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="_versionen"&gt;Versionen&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_2_2"&gt;2.2&lt;/h3&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Korrektur von Zeichen №20&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vereinheitlichte Bezeichnungen für Ligaturen: &lt;code&gt;c{Zeichen}-{Variante}&lt;/code&gt;, wobei &lt;code&gt;{Zeichen}&lt;/code&gt; für die Nummer des Korrekturzeichens (&lt;code&gt;01&lt;/code&gt;–&lt;code&gt;25&lt;/code&gt;) und &lt;code&gt;{Variante}&lt;/code&gt; für die Nummer einer der verfügbaren Varianten (&lt;code&gt;1&lt;/code&gt;–&lt;code&gt;9&lt;/code&gt;) des Zeichens steht&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_2_1"&gt;2.1&lt;/h3&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Erweiterung des Umfangs auf insgesamt 70 Zeichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Einzelne Zeichen lassen sich jetzt durch Aneinanderreihung zu mehrere Zeichen langen Konstrukten kombinieren&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_2_0"&gt;2.0&lt;/h3&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Erweiterung des Umfangs auf insgesamt 64 Zeichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Neues Ordnungssystem für Ligaturen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect2"&gt;
+&lt;h3 id="_1_0"&gt;1.0&lt;/h3&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Umfang von insgesamt 29 Zeichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ligaturen von &lt;code&gt;01&lt;/code&gt; bis &lt;code&gt;29&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="_lizenz"&gt;Lizenz&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div id="licence" class="paragraph"&gt;
+&lt;p&gt;Mit dem Erwerb bekommst du die Lizenz zur Verwendung der Font auf deinem Computer. Du darfst die Schrift in all deinen Programmen für private und auch kommerzielle Zwecke nutzen. Darin inbegriffen ist die Nutzung der Font in Dokumenten und statischen Bildern, diese dürfen komplett frei online und auf ausgedrucktem Gut eingesetzt werden.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><category term="misc"></category><category term="typography"></category><category term="font"></category></entry><entry><title>HTML für zwischendurch: Geeignet für blutige Neulinge</title><link href="https://davidwolf.dev/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/" rel="alternate"></link><published>2021-01-19T00:00:00+01:00</published><updated>2021-01-25T00:00:00+01:00</updated><author><name>David Wolf</name></author><id>tag:davidwolf.dev,2021-01-19:/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/</id><summary type="html">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "mainEntity": {
+    "@type": "Book",
+    "bookFormat": "http://schema.org/EBook",
+    "name": "HTML für zwischendurch: Geeignet für blutige Neulinge",
+    "author": "David Wolf",
+    "datePublished": "2021-01-17",
+    "image": "https://m.media-amazon.com/images/I/51h9XSFadNL.jpg",
+    "inLanguage": "German",
+    "numberOfPages": "27",
+    "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "3.00",
+      "priceCurrency …&lt;/script&gt;</summary><content type="html">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "mainEntity": {
+    "@type": "Book",
+    "bookFormat": "http://schema.org/EBook",
+    "name": "HTML für zwischendurch: Geeignet für blutige Neulinge",
+    "author": "David Wolf",
+    "datePublished": "2021-01-17",
+    "image": "https://m.media-amazon.com/images/I/51h9XSFadNL.jpg",
+    "inLanguage": "German",
+    "numberOfPages": "27",
+    "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/InStock",
+      "price": "3.00",
+      "priceCurrency": "EUR"
+    }
+  }
+}
+&lt;/script&gt;
+
+&lt;p style='text-align:center'&gt;
+  &lt;img src='https://davidwolf.dev/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/html_book_cover_small.jpg' width='200px'&gt;
+  &lt;br&gt;
+  &lt;a href='https://amzn.to/3tYHjPz'&gt;Jetzt lesen&lt;/a&gt;
+&lt;/p&gt;</content><category term="misc"></category><category term="web development"></category><category term="html"></category><category term="book"></category></entry></feed>

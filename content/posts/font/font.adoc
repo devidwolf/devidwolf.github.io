@@ -5,8 +5,12 @@
 :lang: de
 :slug: deutsche-korrekturzeichen-din-16511-font
 :date: 2021-02-05
-:modified: 2021-04-04
+:modified: 2021-04-05
 :image: media/images/font-header.webp
+
++++
+include::_product.html[]
++++
 
 DIN 16511 regelt wie Textkorrekturen im deutschsprachig Raum zu kennzeichnen sind. Hier gibt es eine ganze Reihe an Korrekturzeichen um die unterschiedlichsten Fehler zu kennzeichnen. Diese Zeichen am Computer zu benutzen ist allerdings extrem lästig, da sie jedesmal frei Hand mithilfe von Zeichenwerkzeugen mühsam in den jeweiligen Programmen erstellt werden müssen. Deutlich bequemer wäre da eine Schrift, die einem die Zeichenarbeit abnimmt. +
 Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist jetzt vorbei. Frustriert von den Mühseligkeiten und angetrieben von zukünftiger Einfachheit habe ich mich der Aufgabe angenommen und die meist verwendeten deutschen Korrekturzeichen aus der DIN 16511 in digitaler Form erstellt und in einer Schrift (TrueType Font) zusammengeführt.
