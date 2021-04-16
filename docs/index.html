@@ -162,46 +162,28 @@
 
   <video id="landing-vid" type="video/webm" autoplay muted disablepictureinpicture></video>
 
-  <main class="landing-container">
-
-    <div class="landing">
-      <div class="toCode bg-box" translate="no">
-        <span id="dev">d<span id="a-e">a</span>v</span><span id="attr"><span id="id">id</span><span id="wolf">wolf</span></span>
+  <main>
+    <section class="landing-container">
+      <div class="landing">
+        <div class="toCode bg-box" translate="no">
+          <span id="dev">d<span id="a-e">a</span>v</span><span id="attr"><span id="id">id</span><span id="wolf">wolf</span></span>
+        </div>
       </div>
-    </div>
-
+    </section>
+    <section class="welcome">
+      <div class="container">
+        <p>
+          <img src="https://davidwolf.dev/faces_drawing.webp">
+        </p>
+        <h1>Hello World</h1>
+        <p>
+          My name is David Wolf aka <code><strong>dev</strong>idwolf</code> and I am coding the web (and do some other stuff).
+        </p>
+      </div>
+    </section>
   </main>
 
-  <script>
-    $(function() {
-
-      let videos, currentVideoIndex;
-      videos = [
-        './media/videos/landing-vid.webm',
-        './media/videos/landing-19163600.webm',
-        './media/videos/landing-21054100.webm',
-        './media/videos/landing-17392000-1.webm',
-        './media/videos/landing-00331700.webm',
-      ];
-      // if not set already set random starting video index
-      // console.log(utils.getCookie('sessionVid'));
-      videoIndex = utils.getCookie('sessionVid') ? utils.getCookie('sessionVid') : utils.setCookie('sessionVid', Math.floor(Math.random() * videos.length));
-
-      $('#landing-vid').attr('src', videos[videoIndex]);
-      $('#landing-vid').trigger('play');
-
-      // video autoplay playlist
-      // https://stackoverflow.com/a/17522421/13765033
-      $('#landing-vid').on('ended', function() {
-        videoIndex++;
-        if (videoIndex === videos.length) videoIndex = 0;
-        // console.log(videos[videoIndex]);
-        $(this).attr('src', videos[videoIndex]);
-        $(this).trigger('play');
-      });
-
-    });
-  </script>
+  <script src="https://davidwolf.dev/landing.js"></script>
 
 
 <footer>

@@ -39,15 +39,35 @@ $atom-colors: (bg: hsl(220, 13%, 18%), grey: hsl(220, 14%, 71%), red: hsl(355, 6
 #landing-vid
   position: fixed
   z-index: -1
-  left: 50
+  // left: 50vw
   bottom: 0
-  min-width: 100%
-  min-height: 100%
+  min-width: 100vw
+  min-height: 100vh
 
-main.landing-container
+main
+  padding: 0 !important
+
+.welcome
+  background: linear-gradient(to top, var(--color-dark), transparent)
+  padding-bottom: 10vh
+  margin-bottom: 0
+
+  p:first-of-type
+    text-align: center
+    margin-bottom: 0
+
+    img
+      width: 100%
+      max-width: 360px
+      margin: auto
+
+.landing-container
+  // background: red
   display: flex
+  justify-content: center
   align-items: center
-  margin: auto
+  width: 100vw
+  height: 100vh
 
 .landing
   $start: 5.5s

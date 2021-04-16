@@ -4,7 +4,7 @@
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
 
-# pelican content -s publishconf.py
+# sudo pelican content -s publishconf.py
 
 import os
 import sys
