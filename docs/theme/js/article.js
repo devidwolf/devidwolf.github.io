@@ -46,7 +46,7 @@ $(function() {
   if (navigator.share) {
     const shareData = {
       title: document.title,
-      text: '', // insert description here ehen available
+      text: '', // insert description here when available
       url: location.href,
     }
 
