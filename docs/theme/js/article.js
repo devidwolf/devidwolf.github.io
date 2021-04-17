@@ -46,13 +46,15 @@ $(function() {
   if (navigator.share) {
     const shareData = {
       title: document.title,
-      text: '',
-      url: document.href,
+      text: '', // insert description here ehen available
+      url: location.href,
     }
+
     let description = $('meta[name="description"]').attr('content');
     if (description) {
       shareData.text = description;
     }
+
     shareBtn.click(function() {
       navigator.share(shareData);
     });
