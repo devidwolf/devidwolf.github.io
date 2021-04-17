@@ -1,3 +1,5 @@
+@import ../../../../pelican-theme-darksome/static/sass/base
+
 // https://github.com/atom/one-dark-syntax/blob/master/styles/colors.less
 $atom-colors: (bg: hsl(220, 13%, 18%), grey: hsl(220, 14%, 71%), red: hsl(355, 65%, 65%), orange: hsl(29, 54%, 61%), green: hsl(95, 38%, 62%), purple: hsl(286, 60%, 67%))
 
@@ -48,7 +50,7 @@ main
   padding: 0 !important
 
 .welcome
-  background: linear-gradient(to top, var(--color-dark), transparent)
+  +scrimGradient(map-get($colors, 'dark'), 'to top')
   padding-bottom: 10vh
   margin-bottom: 0
 

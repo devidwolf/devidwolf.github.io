@@ -34,4 +34,25 @@ $(function() {
     $('aside nav').hide();
   }
 
-})
+
+  /**
+   * share data for native share dialog
+   */
+  let shareCard = $('.share');
+  let shareBtn = shareCard.children('a');
+
+  // collect share data and set function to call
+  if (navigator.share) {
+    const shareData = {
+      title: document.title,
+      text: 'Learn web development on MDN!',
+      url: document.href,
+    }
+    shareBtn.click(navigator.share(shareData));
+  }
+  // no browser support, hide sharing card
+  else {
+    shareCard.hide();
+  }
+
+});
