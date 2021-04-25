@@ -1,0 +1,12 @@
+= Moonus: Astronomische Uhr mit Sonnen- und Monddaten
+
+:status: draft
+:slug: moonus
+:description:
+:tags: astronomy, app
+:lang: de
+:date: 2020-03-21
+:modified: 2021-04-17
+// :image: media/images/moonus-header.webp
+
+https://play.google.com/store/apps/details?id=moonus.pkg[Download]
