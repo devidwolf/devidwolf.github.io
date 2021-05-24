@@ -26,14 +26,12 @@
       '/media/docs/certificates/SQL course (SoloLearn).pdf',
       '/media/docs/certificates/jQuery course (SoloLearn).pdf',
     ];
-  </script>
-  <script>
     let index = 0;
     let languages = ['html', 'css', 'javascript', 'jquery', 'python', 'php', 'sql'];
 
     function printLanguage() {
       if (index === languages.length) index = 0;
-      $('input[type="search"]').attr('placeholder', languages[index]);
+      $('input[type=search]').attr('placeholder', languages[index]);
       index++;
     }
     printLanguage();

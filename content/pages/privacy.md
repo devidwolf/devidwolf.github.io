@@ -11,8 +11,8 @@ noindex: true
 - [privacy][g-privacy]
 - [terms][g-terms]
 
-### Server Logfiles
-[hoster][ud-media-logs]
+### GitHub
+[hoster][github]
 
 ### Downloads
 Downladable products are brought to you by FetchApp:
@@ -27,4 +27,4 @@ And selled via PayPal:
 [g-search-console]: https://search.google.com/search-console
 [g-privacy]: https://policies.google.com/privacy
 [g-terms]: https://policies.google.com/terms
-[ud-media-logs]: https://www.udmedia.de/service/datenschutz/#datenschutz-1:~:text=Browsertyp%2F%2Dversion,Nutzers%20%C3%BCber%20unsere%20Website%20aufgerufen%20wird
+[github]: https://docs.github.com/en/github/site-policy/github-privacy-statement

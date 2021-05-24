@@ -4,7 +4,7 @@
 :noindex: true
 
 == https://www.gesetze-im-internet.de/tmg/__5.html[§ 5 TMG]
-a [at] davidwolf [dot] dev +
+a [at] david🐺 [dot] to +
 David Wolf +
 Königsberger Straße 5 +
 51545 Waldbröl
