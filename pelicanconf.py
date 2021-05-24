@@ -85,8 +85,8 @@ SITEMAP = {
 
 
 CANONICALURLS = (
-    'https://www.david🐺.to',
-    'https://davidwolf.to',
+    'http://www.david🐺.to',
+    'https://davidwolf.dev',
     'https://www.davidwolf.dev',
 )
 
