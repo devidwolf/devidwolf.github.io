@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>David Wolf</title><link href="https://davidwolf.dev/" rel="alternate"></link><link href="https://davidwolf.dev/feed.xml" rel="self"></link><id>https://davidwolf.dev/</id><updated>2021-04-05T00:00:00+02:00</updated><entry><title>Font der Deutschen Korrekturzeichen nach DIN 16511</title><link href="https://davidwolf.dev/de/deutsche-korrekturzeichen-din-16511-font/" rel="alternate"></link><published>2021-02-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+02:00</updated><author><name>David Wolf</name></author><id>tag:davidwolf.dev,2021-02-05:/de/deutsche-korrekturzeichen-din-16511-font/</id><summary type="html">&lt;div id="preamble"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>David Wolf</title><link href="https://david%F0%9F%90%BA.to/" rel="alternate"></link><link href="https://david%F0%9F%90%BA.to/feed.xml" rel="self"></link><id>https://david🐺.to/</id><updated>2021-04-05T00:00:00+02:00</updated><entry><title>Font der Deutschen Korrekturzeichen nach DIN 16511</title><link href="https://david%F0%9F%90%BA.to/de/deutsche-korrekturzeichen-din-16511-font/" rel="alternate"></link><published>2021-02-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+02:00</updated><author><name>David Wolf</name></author><id>tag:david🐺.to,2021-02-05:/de/deutsche-korrekturzeichen-din-16511-font/</id><summary type="html">&lt;div id="preamble"&gt;
 &lt;div class="sectionbody"&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;
@@ -71,7 +71,7 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;/div&gt;
 &lt;div class="imageblock"&gt;
 &lt;div class="content"&gt;
-&lt;img src="https://davidwolf.dev/de/deutsche-korrekturzeichen-din-16511-font/font_v2.2.png" alt="Alle Korrekturzeichen in der Schriftensammlung vom Mac"&gt;
+&lt;img src="https://david🐺.to/de/deutsche-korrekturzeichen-din-16511-font/font_v2.2.png" alt="Alle Korrekturzeichen in der Schriftensammlung vom Mac"&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
@@ -92,7 +92,7 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;/div&gt;
 &lt;div class="imageblock"&gt;
 &lt;div class="content"&gt;
-&lt;img src="https://davidwolf.dev/de/deutsche-korrekturzeichen-din-16511-font/glypen.png" alt="Glyphenbedienfeld in Illustrator"&gt;
+&lt;img src="https://david🐺.to/de/deutsche-korrekturzeichen-din-16511-font/glypen.png" alt="Glyphenbedienfeld in Illustrator"&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -565,7 +565,7 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;p&gt;Mit dem Erwerb bekommst du die Lizenz zur Verwendung der Font auf deinem Computer. Du darfst die Schrift in all deinen Programmen für private und auch kommerzielle Zwecke nutzen. Darin inbegriffen ist die Nutzung der Font in Dokumenten und statischen Bildern, diese dürfen komplett frei online und auf ausgedrucktem Gut eingesetzt werden.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><category term="misc"></category><category term="typography"></category><category term="font"></category></entry><entry><title>HTML für zwischendurch: Geeignet für blutige Neulinge</title><link href="https://davidwolf.dev/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/" rel="alternate"></link><published>2021-01-19T00:00:00+01:00</published><updated>2021-01-25T00:00:00+01:00</updated><author><name>David Wolf</name></author><id>tag:davidwolf.dev,2021-01-19:/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/</id><summary type="html">&lt;script type="application/ld+json"&gt;
+&lt;/div&gt;</content><category term="misc"></category><category term="typography"></category><category term="font"></category></entry><entry><title>HTML für zwischendurch: Geeignet für blutige Neulinge</title><link href="https://david%F0%9F%90%BA.to/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/" rel="alternate"></link><published>2021-01-19T00:00:00+01:00</published><updated>2021-01-25T00:00:00+01:00</updated><author><name>David Wolf</name></author><id>tag:david🐺.to,2021-01-19:/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/</id><summary type="html">&lt;script type="application/ld+json"&gt;
 {
   "@context": "http://schema.org",
   "mainEntity": {
@@ -604,7 +604,7 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;/script&gt;
 
 &lt;p style='text-align:center'&gt;
-  &lt;img src='https://davidwolf.dev/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/html_book_cover_small.jpg' width='200px'&gt;
+  &lt;img src='https://david🐺.to/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/html_book_cover_small.jpg' width='200px'&gt;
   &lt;br&gt;
   &lt;a href='https://amzn.to/3tYHjPz'&gt;Jetzt lesen&lt;/a&gt;
 &lt;/p&gt;</content><category term="misc"></category><category term="web development"></category><category term="html"></category><category term="book"></category></entry></feed>

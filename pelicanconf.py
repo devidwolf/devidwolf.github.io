@@ -85,9 +85,9 @@ SITEMAP = {
 
 
 CANONICALURLS = (
-    'https://www.davidwolf.dev',
-    'https://david🐺.to',
     'https://www.david🐺.to',
+    'https://davidwolf.to',
+    'https://www.davidwolf.dev',
 )
 
 """not used on index"""
