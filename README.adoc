@@ -4,7 +4,7 @@ Personal website
 
 [cols=2]
 |===
-| Static Site Generator
+| Generator
 | https://getpelican.com[Pelican] 🐦
 
 | Theme
