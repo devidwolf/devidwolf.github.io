@@ -8,7 +8,7 @@ Personal website
 | https://getpelican.com[Pelican] 🐦
 
 | Theme
-| https://github.com/devidwolf/pelican-theme-darksome[Darksome]
+| https://github.com/devidwolf/pelican-theme-darksome[Darksome] 🌚
 
 | Hoster
 | https://pages.github.com[GitHub Pages] ❤️
