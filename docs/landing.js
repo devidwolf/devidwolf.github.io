@@ -1,12 +1,13 @@
 $(function() {
-
   let videos, currentVideoIndex;
+
   videos = [
     './media/videos/landing-vid.webm',
     './media/videos/landing-19163600.webm',
     './media/videos/landing-21054100.webm',
     './media/videos/landing-17392000-1.webm',
     './media/videos/landing-00331700.webm',
+    './media/videos/00532700.webm',
     './media/videos/00072300.webm',
     './media/videos/20424700.webm',
     './media/videos/02084900.webm',
@@ -20,9 +21,16 @@ $(function() {
     './media/videos/19343100.webm',
     './media/videos/23591700.webm',
   ];
+
   // if not set already set random starting video index
   // console.log(utils.getCookie('sessionVid'));
-  videoIndex = utils.getCookie('sessionVid') ? utils.getCookie('sessionVid') : utils.setCookie('sessionVid', Math.floor(Math.random() * videos.length));
+  if (utils.getCookie('sessionVid')) {
+    videoIndex = utils.getCookie('sessionVid');
+  } else {
+    videoIndex = Math.floor(Math.random() * videos.length);
+    utils.setCookie('sessionVid', videoIndex);
+  }
+  // console.log(videoIndex);
 
   $('#landing-vid').attr('src', videos[videoIndex]);
   $('#landing-vid').trigger('play');
