@@ -22,15 +22,8 @@ $(function() {
     './media/videos/23591700.webm',
   ];
 
-  // if not set already set random starting video index
-  // console.log(utils.getCookie('sessionVid'));
-  if (utils.getCookie('sessionVid')) {
-    videoIndex = utils.getCookie('sessionVid');
-  } else {
-    videoIndex = Math.floor(Math.random() * videos.length);
-    utils.setCookie('sessionVid', videoIndex);
-  }
-  // console.log(videoIndex);
+  // random starting video on every page load
+  videoIndex = Math.floor(Math.random() * videos.length);
 
   $('#landing-vid').attr('src', videos[videoIndex]);
   $('#landing-vid').trigger('play');
