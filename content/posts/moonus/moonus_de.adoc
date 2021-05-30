@@ -1,12 +1,21 @@
 = Moonus: Astronomische Uhr mit Sonnen- und Monddaten
 
-:status: draft
+// :status: draft
 :slug: moonus
-:description:
+:description: Moonus ist eine 24 Stunden basierte analog Uhr mit Schwerpunkt auf Solar- & Monddaten wie Sonnenaufgang & -untergang und Mondaufgang & -untergang.
 :tags: astronomy, app
 :lang: de
+:translation: true
 :date: 2020-03-21
 :modified: 2021-04-17
 // :image: media/images/moonus-header.webp
 
-https://play.google.com/store/apps/details?id=moonus.pkg[Download]
++++
+<p style='text-align:center'>
+<img src='{attach}moonus.png' width='50%'>
+  <br>
+  <a href='https://play.google.com/store/apps/details?id=moonus.pkg&hl=de_DE'>
+    Jetzt installieren
+  </a>
+</p>
++++

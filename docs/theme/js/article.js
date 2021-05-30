@@ -25,7 +25,7 @@ $(function() {
 
       // headlines
       $(e).attr('id', i);
-      $(`<a href='#${i}'><i class='icon'>link</i></a>`).appendTo(e);
+      $(`<a href='#${i}'><i class="material-icons">link</i></a>`).appendTo(e);
 
     });
   }

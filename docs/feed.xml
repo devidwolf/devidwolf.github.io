@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>David Wolf</title><link href="https://david%F0%9F%90%BA.to/" rel="alternate"></link><link href="https://david%F0%9F%90%BA.to/feed.xml" rel="self"></link><id>https://david🐺.to/</id><updated>2021-04-05T00:00:00+02:00</updated><entry><title>Font der Deutschen Korrekturzeichen nach DIN 16511</title><link href="https://david%F0%9F%90%BA.to/de/deutsche-korrekturzeichen-din-16511-font/" rel="alternate"></link><published>2021-02-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+02:00</updated><author><name>David Wolf</name></author><id>tag:david🐺.to,2021-02-05:/de/deutsche-korrekturzeichen-din-16511-font/</id><summary type="html">&lt;div id="preamble"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>David Wolf</title><link href="https://david%F0%9F%90%BA.to/" rel="alternate"></link><link href="https://david%F0%9F%90%BA.to/feed.xml" rel="self"></link><id>https://david🐺.to/</id><updated>2021-04-17T00:00:00+02:00</updated><entry><title>Font der Deutschen Korrekturzeichen nach DIN 16511</title><link href="https://david%F0%9F%90%BA.to/de/deutsche-korrekturzeichen-din-16511-font/" rel="alternate"></link><published>2021-02-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+02:00</updated><author><name>David Wolf</name></author><id>tag:david🐺.to,2021-02-05:/de/deutsche-korrekturzeichen-din-16511-font/</id><summary type="html">&lt;div id="preamble"&gt;
 &lt;div class="sectionbody"&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;
@@ -607,4 +607,14 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
   &lt;img src='https://david🐺.to/de/html-fur-zwischendurch-geeignet-fur-blutige-neulinge/html_book_cover_small.jpg' width='200px'&gt;
   &lt;br&gt;
   &lt;a href='https://amzn.to/3tYHjPz'&gt;Jetzt lesen&lt;/a&gt;
-&lt;/p&gt;</content><category term="misc"></category><category term="web development"></category><category term="html"></category><category term="book"></category></entry></feed>
+&lt;/p&gt;</content><category term="misc"></category><category term="web development"></category><category term="html"></category><category term="book"></category></entry><entry><title>Moonus: Astronomic watchface</title><link href="https://david%F0%9F%90%BA.to/en/moonus/" rel="alternate"></link><published>2020-03-21T00:00:00+01:00</published><updated>2021-04-17T00:00:00+02:00</updated><author><name>David Wolf</name></author><id>tag:david🐺.to,2020-03-21:/en/moonus/</id><content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;
+&lt;p style="text-align:center"&gt;
+  &lt;img src="https://david🐺.to/en/moonus/moonus.png" width="50%"&gt;
+  &lt;br&gt;
+  &lt;a href="https://play.google.com/store/apps/details?id=moonus.pkg&amp;hl=en_US"&gt;
+    Download Now
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;</content><category term="misc"></category><category term="astronomy"></category><category term="app"></category></entry></feed>
