@@ -50,7 +50,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
-DEFAULT_DATE_FORMAT = '%d. %B 1%Y HE'
+DEFAULT_DATE_FORMAT = '%d. %B 1%Y 𐅪'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
