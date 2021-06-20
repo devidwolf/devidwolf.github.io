@@ -242,6 +242,9 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;div class="paragraph"&gt;
 &lt;p&gt;Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach Belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class="paragraph promo"&gt;
+&lt;p&gt;&lt;a href="#5"&gt;Zum Download&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="sect1"&gt;
@@ -273,7 +276,7 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;div class="sect2"&gt;
 &lt;h3 id="_kopieren"&gt;Kopieren&lt;/h3&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten Tastenkombinationen &lt;code&gt;⌘ + C&lt;/code&gt; und &lt;code&gt;⌘ + V&lt;/code&gt; bzw. &lt;code&gt;STRG + C&lt;/code&gt; und &lt;code&gt;STRG + V&lt;/code&gt; ist ebenfalls eine denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und anhand der Kopiervorlage diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift hingegen noch nicht auf deinem Computer dürften dich ganz viele &lt;code&gt;⍰&lt;/code&gt; erblicken. 🙃&lt;/p&gt;
+&lt;p&gt;Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten Tastenkombinationen &lt;code&gt;⌘ + C&lt;/code&gt; und &lt;code&gt;⌘ + V&lt;/code&gt; bzw. &lt;code&gt;STRG + C&lt;/code&gt; und &lt;code&gt;STRG + V&lt;/code&gt; ist ebenfalls eine denkbare Verwenungsmethode.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;
@@ -302,12 +305,15 @@ Allerdings ist eine solche Font im Netz leider nirgends zu finden. Doch das ist 
 &lt;div class="sect1"&gt;
 &lt;h2 id="_zeichensatz"&gt;Zeichensatz&lt;/h2&gt;
 &lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und anhand der Kopiervorlage diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift hingegen noch nicht auf deinem Computer dürften dich ganz viele &lt;code&gt;⍰&lt;/code&gt; erblicken. 🙃&lt;/p&gt;
+&lt;/div&gt;
 &lt;table id="table" class="tableblock frame-all grid-all stretch gcmf"&gt;
 &lt;colgroup&gt;
-&lt;col style="width: 10%;"&gt;
-&lt;col style="width: 15%;"&gt;
-&lt;col style="width: 15%;"&gt;
-&lt;col style="width: 60%;"&gt;
+&lt;col style="width: 25%;"&gt;
+&lt;col style="width: 25%;"&gt;
+&lt;col style="width: 25%;"&gt;
+&lt;col style="width: 25%;"&gt;
 &lt;/colgroup&gt;
 &lt;thead&gt;
 &lt;tr&gt;

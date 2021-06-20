@@ -19,6 +19,10 @@ image::{attach}font_v2.2.png[Alle Korrekturzeichen in der Schriftensammlung vom 
 
 Dadurch das die Korrekturzeichen nun als digitale Font vorliegen, lassen sich diese übrigens nach Belieben einfärben und grenzenlos skalieren, ohne das es dabei zu irgendwelchen Qualitätsverlusten kommt. 😉
 
+[.promo]
+<<5, Zum Download>>
+
+
 == Verwendung
 Bei der Verwendung der Schrift bestehen in erster Linie drei mögliche Wege die Korrekturzeichen in deinen Dokumenten einzufügen, welche ich dir an dieser Stelle gerne kurz vorstellen möchte.
 
@@ -33,7 +37,7 @@ Die einzelnen Korrekturzeichen sind darüber hinaus auch über Ligaturen erreich
 Wenn du die automatische Umwandlung der Ligaturen in die Korrekturzeichen in Microsoft Word^®^ verwenden möchtest solltest du zunächst überprüfen ob das entsprechende Feature aktiviert ist. Stelle dazu sicher das unter dem Menüpfad `Format > Schriftart > Erweitert > Erweiterte Typografie` die Option `Ligaturen` auf `Alle` gesetzt ist.
 
 === Kopieren
-Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist ebenfalls eine denkbare Verwenungsmethode. Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und anhand der Kopiervorlage diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift hingegen noch nicht auf deinem Computer dürften dich ganz viele `⍰` erblicken. 🙃
+Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten Tastenkombinationen `⌘ + C` und `⌘ + V` bzw. `STRG + C` und `STRG + V` ist ebenfalls eine denkbare Verwenungsmethode.
 
 +++
 <style media="screen">
@@ -56,8 +60,11 @@ Das schlichte Kopieren und Einfügen der Korrekturzeichen mithilfe der bekannten
 +++
 
 == Zeichensatz
+Sofern du dir die Schrift bereits über den Link am Seitenende heruntergeladen und installiert hast, dürftest du in der nachstehenden Tabelle alle Korrekturzeichen des Schriftsatzes sehen, und anhand der Kopiervorlage diese Unicodes auch frei auf deinem Rechner kopieren und einfügen können. Befindet sich die Schrift hingegen noch nicht auf deinem Computer dürften dich ganz viele `⍰` erblicken. 🙃
+
 // [.gcmf, id=table, cols="^.^10%, >.^15%, ^.^15%, <.<60%"]
-[.gcmf, id=table, cols="10%, 15%, 15%, 60%"]
+// [.gcmf, id=table, cols="10%, 15%, 15%, 60%"]
+[.gcmf, id=table]
 |===
 | № | Ligatur | Zeichen | Bedeutung
 
